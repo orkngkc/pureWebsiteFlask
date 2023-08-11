@@ -1,0 +1,229 @@
+Era,Sene,Yerin Adı,Niyet,Success,Ottoman leaders,Opponent leader,Method,isOpponentMuslim,lat,lon
+Ertuğrul Gazi,,Söğüt,Alma,1,Ertuğrul Gāzi,Sultan Alaaddin,hediye,1.0,40.01590632366907,30.18315029832842
+Ertuğrul Gazi,,Domaniç Dağları,Alma,1,Ertuğrul Gāzi,Sultan Alaaddin,hediye,1.0,39.93443414598841,29.26139030361998
+Ertuğrul Gazi,,Ahi Dağı,Alma,1,Ertuğrul Gāzi,Sultan Alaaddin,hediye,1.0,39.99771828545624,29.899770418423326
+Osman Gazi,,İnegöl,Alma,0,Osman Gāzi,,kılıç yoluyla,0.0,40.08151735196048,29.49220256460177
+Osman Gazi,685- M. 1286,Kulaca,Alma,1,Osman Gāzi,Karacahisar tekfuru,kılıç yoluyla,0.0,40.07706709329295,29.569028563336825
+Osman Gazi,685- M. 1286,İkizce,Alma,1,Osman Gāzi,Karacahisar tekfuru,kılıç yoluyla,0.0,39.72886272889311,29.312354989326213
+Osman Gazi,687- M. 1288,Karacahisar,Alma,1,"Sultan Alaaddin, Osman Gazi",Karacahisar tekfuru,kılıç yoluyla,0.0,39.73890356993027,30.445420611171663
+Osman Gazi,687- M. 1288,Ereğli ,Alma,1,"Sultan Alaaddin, Osman Gazi",Tatarlar,kılıç yoluyla,0.0,40.71659201433224,29.81938347700628
+Osman Gazi,,Mudurnu,Alma,1,Mihal,,kılıç yoluyla,0.0,40.46315568482936,31.222106443016344
+Osman Gazi,,Göynük,Alma,0,Mihal,,kılıç yoluyla,0.0,40.4034439946423,30.785568565907862
+Osman Gazi,,Taraklı,Alma,0,Mihal,,kılıç yoluyla,0.0,40.39648387205333,30.492019236945
+Osman Gazi,,İnegöl,Alma,1,Osman Gāzi,İnegöl tekfuru,kılıç yoluyla,0.0,40.08151735196048,29.49220256460177
+Osman Gazi,699-M. 1299/1300,Bilecik,Alma,1,Osman Gāzi,Bilecük tekfuru,kılıç yoluyla,0.0,40.1425011484395,29.977979034896084
+Osman Gazi,699-M. 1299/1300,Yarhisar,Alma,1,Osman Gāzi,Yarhisar tekfuru,kılıç yoluyla,0.0,40.18402697618692,29.73114444175696
+Osman Gazi,,Köprühisar,Alma,1,Osman Gāzi,Köprühisar tekfuru,kılıç yoluyla,0.0,40.2786440097259,29.78601166853124
+Osman Gazi,,Dimbos,Savunma,1,Osman Gāzi,Kite tekfuru,kılıç yoluyla,0.0,40.25750017176652,29.48231513752241
+Osman Gazi,,Kite,Alma,1,Osman Gāzi,Kite tekfuru,kılıç yoluyla,0.0,40.25750017176652,29.48231513752241
+Osman Gazi,,Daranos,Alma,1,Osman Gāzi,Daranos tekfuru,kılıç yoluyla,0.0,40.36326767923399,30.03368903565348
+Osman Gazi,,Bursa,Alma,0,Osman Gāzi,Baras tekfuru,kılıç yoluyla,0.0,40.1836782223977,29.0499149004772
+Osman Gazi,704- M.1305,Mekece,Alma,1,Osman Gāzi,Mekece tekfuru,teslim ile,0.0,40.45438366388553,30.051290582264407
+Osman Gazi,704- M.1305,Leblebici Kalesi,Alma,1,Osman Gāzi,Leblebici tekfuru,teslim ile,0.0,40.283744832980254,30.31524566035172
+Osman Gazi,704- M.1305,Osmaneli,Alma,1,Osman Gāzi,Lefke tekfuru,teslim ile,0.0,40.35942707150084,30.01544448798293
+Osman Gazi,704- M.1305,Çadırlı,Alma,1,Osman Gāzi,Çadırlı tekfuru,teslim ile,0.0,40.348708718560445,30.032207909873247
+Osman Gazi,704- M.1305,Palangatepe Höyük,Alma,1,Osman Gāzi,Akhisar tekfuru,kılıç yoluyla,0.0,40.5059388133953,30.16986431280385
+Osman Gazi,704- M.1305,Geyve,Alma,1,Osman Gāzi,Gevye tekfuru,teslim ile,0.0,40.53209454880711,30.292005175864567
+Osman Gazi,704- M.1305,Umurbey,Alma,1,Osman Gāzi,,kılıç yoluyla,0.0,40.46729510038342,30.25974173694391
+Osman Gazi,,Karaçepüş Kalesi,Alma,1,Orhan Bey,Karaçepüş tekfuru,kılıç yoluyla,0.0,40.61829150376778,30.35438806720128
+Osman Gazi,,Düzce,Alma,1,Orhan Bey,,kılıç yoluyla,0.0,40.84202255280148,31.169909657007388
+Osman Gazi,,Adliye Kale,Alma,1,Orhan Bey,,teslim ile,0.0,40.49301861403456,29.940445643979302
+Osman Gazi,,Karatekin Kalesi,Alma,1,Orhan Gazi,,kılıç yoluyla,0.0,40.43927541864195,29.87967809526352
+Osman Gazi,726-M. 1326,Orhaneli,Alma,1,"Konuralp, Gazi Abdurrahman, Köse Mihal, Akçakoca",Atranoz tekfuru,kılıç yoluyla,0.0,39.95198890247487,28.985885944700527
+Osman Gazi,726-M. 1326,Bursa,Alma,1,"Mihal, Orhan Gāzi",Bursa tekfuru,teslim ile,0.0,40.21163133688983,29.03434071965812
+Osman Gazi,,Akyazı,Alma,1,Konur Alp,,kılıç yoluyla,0.0,40.70745480302764,30.623068951721308
+Osman Gazi,,Melen Çayı Vadisi,Alma,1,Konur Alp,,kılıç yoluyla,0.0,40.91398008750898,31.14683178566888
+Osman Gazi,,Mudurnu,Alma,1,Konur Alp,,kılıç yoluyla,0.0,40.46315568482936,31.222106443016344
+Osman Gazi,,Bolu,Alma,1,Konur Alp,,kılıç yoluyla,0.0,40.76124976826167,31.616314856215823
+Osman Gazi,,Semendire,Alma,1,Gaziler,Samandıra tekfuru,kılıç yoluyla,0.0,40.99569903588193,29.22779721667578
+Osman Gazi,,Aydos Kalesi,Alma,1,"Gazi Rahman, Akçakoca",Aydos tekfuru,kılıç yoluyla,0.0,40.94103320840423,29.259406571012114
+Orhan Gazi,,Yalak Ovası,Alma,1,Orhan Gazi,Yalakonya,teslim ile,0.0,40.71903411859681,29.82305049316608
+Orhan Gazi,,Koyunhisar,Alma,1,Orhan Gazi,Yalakonya,kılıç yoluyla,0.0,40.72966118798721,29.806855867059323
+Orhan Gazi,,İzmit,Alma,1,Orhan Gazi,,teslim ile,0.0,40.798705740338455,29.937571936120325
+Orhan Gazi,,Ermeni Pazarı,Alma,1,Orhan Gazi,,teslim ile,0.0,39.99771828545624,29.899770418423326
+Orhan Gazi,,Kandıra,Alma,1,Orhan Gazi,,teslim ile,0.0,41.0708384863549,30.15112020486916
+Orhan Gazi,,Kocaeli,Alma,1,Orhan Gazi,,teslim ile,0.0,41.01954001618392,29.849077563399195
+Orhan Gazi,731- M. 1331,İznik,Alma,1,Orhan Gazi,İznik tekfuru,pes ettirme,0.0,40.42796512386861,29.718534064564235
+Orhan Gazi,,Taraklı,Alma,1,Orhan Gazi,,teslim ile,0.0,40.39648387205333,30.492019236945
+Orhan Gazi,,Göynük,Alma,1,Orhan Gazi,,teslim ile,0.0,40.40334582959421,30.78586895502526
+Orhan Gazi,,Uluabat,Alma,1,Orhan Gazi,Ulubat tekfuru,kılıç yoluyla,0.0,40.21065572865336,28.43163856789109
+Orhan Gazi,,Balyoz,Alma,1,Orhan Gazi,,kılıç yoluyla,0.0,40.11110154252744,28.643530540020954
+Orhan Gazi,,Apollonia,Alma,1,Orhan Gazi,,kılıç yoluyla,0.0,40.17380208347876,28.584126537625973
+Orhan Gazi,,Mustafakemalpaşa,Alma,1,Orhan Gazi,Kalemestorya,teslim ile,0.0,40.038457569683054,28.41169894944826
+Orhan Gazi,735- M. 1334/1335,Balıkesir,Alma,1,Orhan Gazi,,kılıç yoluyla,0.0,39.653632692184615,27.891125341111845
+Orhan Gazi,758- M. 1357,Çimpe Kalesi,Alma,1,Süleyman Paşa,,kılıç yoluyla,0.0,40.91623612406487,26.85060699441548
+Orhan Gazi,758- M. 1357,Ayaşolonya,Alma,1,Süleyman Paşa,,kılıç yoluyla,0.0,40.49751374789557,26.738190909928647
+Orhan Gazi,758- M. 1357,Gelibolu,Alma,1,Süleyman Paşa,,kılıç yoluyla,0.0,40.43103705075337,26.67217810168033
+Orhan Gazi,,Tekirdağ,Alma,1,Süleyman Paşa,,kılıç yoluyla,0.0,40.9767790119275,27.511026696178003
+Orhan Gazi,,Şarköy,Alma,1,Süleyman Paşa,Kalakonya,kılıç yoluyla,0.0,40.6153810010494,27.11227233318006
+Murad Han Gazi,,Banatoz,Alma,1,Murad Han Gazi,,teslim ile,0.0,40.90005474353528,27.44966648446289
+Murad Han Gazi,,Çorlu Kalesi,Alma,1,Murad Han Gazi,,kılıç yoluyla,0.0,41.20351583033919,27.79644599891704
+Murad Han Gazi,,Çatalca Kalesi,Alma,1,Murad Han Gazi,,teslim ile,0.0,41.14456753188904,28.45791037168669
+Murad Han Gazi,,Dimetoka,Alma,1,Hacı İlbey,Dimetoka tekfuru,kılıç yoluyla,0.0,41.35352369105706,26.49946072086719
+Murad Han Gazi,,Keşan,Alma,1,Gazi Evrenez,,kılıç yoluyla,0.0,40.85875920845031,26.62951378292044
+Murad Han Gazi,,İpsala,,0,Gazi Evrenez,,kılıç yoluyla,0.0,40.92180827299282,26.381458300000705
+Murad Han Gazi,761- M. 1360/1361,Edirne,Alma,1,"Lala Şahin, Murad Han Gazi",Edirne tekfuru,kılıç yoluyla,0.0,40.75872847765076,26.18022048675348
+Murad Han Gazi,,Eski Zağra,Alma,1,Lala Şahin ,,kılıç yoluyla,0.0,42.478921729903824,25.64267341856857
+Murad Han Gazi,,Filibe,Alma,1,Lala Şahin ,,kılıç yoluyla,0.0,42.18075238779866,24.74847033482586
+Murad Han Gazi,,İpsala,Alma,1,Evrenoz Gazi,,kılıç yoluyla,0.0,40.94510142475559,26.39042818389776
+Murad Han Gazi,,Eski Zağra,Alma,1,Lala Şahin ,,kılıç yoluyla,0.0,42.988838505342464,25.73307206485668
+Murad Han Gazi,,Gümülcine,Alma,1,Evrenoz Gazi,,kılıç yoluyla,0.0,41.15103153414059,25.3997557383813
+Murad Han Gazi,766- M. 1364/1365,Biga,Alma,1,Murad Han Gazi,,kılıç yoluyla,0.0,40.23550476979398,27.24386058968765
+Murad Han Gazi,,Edirne,Savunma,1,Lala Şahin ,,kılıç yoluyla,0.0,41.70170015752922,26.55879236448965
+Murad Han Gazi,783- M. 1381,Kütahya,Alma,1,Murad Han Gazi,Germiyanoğlu,hediye,1.0,39.436828361196,29.98735101446477
+Murad Han Gazi,783- M. 1381,Simav,Alma,1,Murad Han Gazi,Germiyanoğlu,hediye,1.0,39.10747612441083,28.982237647283963
+Murad Han Gazi,783- M. 1381,Eğrigöz,Alma,1,Murad Han Gazi,Germiyanoğlu,hediye,1.0,39.36162729127132,29.08431027313961
+Murad Han Gazi,783- M. 1381,Tavşanlı,Alma,1,Murad Han Gazi,Germiyanoğlu,hediye,1.0,39.572433339236746,29.49185660994605
+Murad Han Gazi,783/784- M. 1381-1382,Akşehir,Alma,1,Murad Han Gazi,Hamidoğlu Hüseyin Bey,satın alma,1.0,38.362451260849326,31.428382320561624
+Murad Han Gazi,783/784- M. 1381-1382,Beyşehir,Alma,1,Murad Han Gazi,Hamidoğlu Hüseyin Bey,satın alma,1.0,37.69692381564792,31.72001023792645
+Murad Han Gazi,783/784- M. 1381-1382,Seydişehir,Alma,1,Murad Han Gazi,Hamidoğlu Hüseyin Bey,satın alma,1.0,37.46728548344702,31.844072830669983
+Murad Han Gazi,783/784- M. 1381-1382,Yalvaç,Alma,1,Murad Han Gazi,Hamidoğlu Hüseyin Bey,satın alma,1.0,38.33066941705958,31.189973012675587
+Murad Han Gazi,783/784- M. 1381-1382,Karaağaç,Alma,1,Murad Han Gazi,Hamidoğlu Hüseyin Bey,satın alma,1.0,41.74835566488504,26.554399872941488
+Murad Han Gazi,,Isparta,Alma,1,Murad Han Gazi,Hamidoğlu Hüseyin Bey,satın alma,1.0,37.79602634320781,30.55086929803797
+Murad Han Gazi,,Ferecik,Alma,1,"Lala Şahin, Evrenoz Gazi",,kılıç yoluyla,,40.89605594983988,26.168407681532567
+Murad Han Gazi,,Çatalca Kalesi,Alma,1,Murad Han Gazi,,haraca bağlama,0.0,41.16597924924937,28.45316816931326
+Murad Han Gazi,,Polanya,Alma,1,Murad Han Gazi,,kılıç yoluyla,0.0,42.393636696072086,27.690238924784715
+Murad Han Gazi,,Yassıköy,Alma,1,"Vezir Hayreddin Paşa, Evrenoz Gazi",,kılıç yoluyla,0.0,41.13532059382661,25.139966037369184
+Murad Han Gazi,,İskeçe,Alma,1,"Vezir Hayreddin Paşa, Evrenoz Gazi",,kılıç yoluyla,0.0,41.13611296754698,24.887962049149422
+Murad Han Gazi,,Marula,Alma,1,"Vezir Hayreddin Paşa, Evrenoz Gazi",,kılıç yoluyla,0.0,40.922761219380085,25.520502363913145
+Murad Han Gazi,,Kavala,Alma,1,Lala Şahin,,teslim ile,,40.95233708542543,24.41194754892661
+Murad Han Gazi,,Drama,Alma,1,Lala Şahin,,teslim ile,,41.17207223227109,24.150733489198448
+Murad Han Gazi,,Zihne,Alma,1,Lala Şahin,,teslim ile,,41.08660879603244,23.54844078806896
+Murad Han Gazi,,Serez,Alma,1,Lala Şahin,,teslim ile,,41.08660879603244,23.54844078806896
+Murad Han Gazi,,Karaferye,Alma,1,Lala Şahin,,kılıç yoluyla,0.0,40.60411987716128,22.213497475618787
+Murad Han Gazi,787- M. 1385,Manastır,Alma,1,Kara Temür Paşa,,haraca bağlama,0.0,41.106638875441725,21.31514819651193
+Murad Han Gazi,787- M. 1385,Karlıeli,Alma,0,Kara Temür Paşa,,kılıç yoluyla,0.0,38.57508120832502,21.299551336697505
+Murad Han Gazi,791- M. 1389,Kosova,Savunma,1,Murad Han Gazi,Sırp Kralı,kılıç yoluyla,0.0,42.633934,21.078823
+Bayezid Han,,Vüdene,Alma,1,Evrenoz Gazi,,kılıç yoluyla,,40.82901520184241,22.02621494207761
+Bayezid Han,,Çıfroz,Alma,1,Evrenoz Gazi,,kılıç yoluyla,,40.37606720197146,22.579228764757524
+Bayezid Han,792- M. 1390,Alaşehir,Alma,1,Bâyezıd Hân,,teslim ile,0.0,38.37061536516373,28.53518037094852
+Bayezid Han,792- M. 1390,Manisa,Alma,1,Bayezid Han,,kılıç yoluyla,1.0,38.6082455454868,27.4308007816027
+Bayezid Han,793- M. 1391,İstanbul,Alma,0,Bayezid Han,İstanbul tekfuru,teslim ile,0.0,41.71826443246909,28.93454982967669
+Bayezid Han,793- M. 1391,Alacahisar,Savunma,1,Bayezid Han,,kılıç yoluyla,0.0,43.5854038579024,21.3222672153432
+Bayezid Han,793/794- M. 1391/1392,Şile,Alma,1,Yahşı Beg,,teslim ile,0.0,41.199849899241165,29.612893890081736
+Bayezid Han,793/794- M. 1391/1392,İstanbul,Alma,0,Bayezid Han,İstanbul tekfuru,teslim ile,0.0,41.71826443246909,28.93454982967669
+Bayezid Han,,Niğbolu,Alma,1,Bayezid Han,,kılıç yoluyla,,44.02795002281243,24.924577449867
+Bayezid Han,,Silistre,Alma,1,Bayezid Han,,kılıç yoluyla,,44.12793287373951,27.264974825418964
+Bayezid Han,,Karaferye,Alma,1,Bayezid Han,,kılıç yoluyla,,40.60411987716128,22.213497475618787
+Bayezid Han,,Konya,Alma,1,Bayezid Han,Karamanoğlu,teslim ile,1.0,40.47180863993236,32.76808548712894
+Bayezid Han,,Aksaray,Alma,1,Bayezid Han,Karamanoğlu,teslim ile,1.0,38.91870970803885,34.112731041359595
+Bayezid Han,,Niğde,Alma,1,Bayezid Han,Karamanoğlu,teslim ile,1.0,38.14282533466572,34.66960756554334
+Bayezid Han,,Kayseri,Alma,1,Bayezid Han,Karamanoğlu,teslim ile,1.0,38.9875338953375,35.49891298047253
+Bayezid Han,,Karacahisar,Alma,1,Bayezid Han,Karamanoğlu,teslim ile,1.0,38.47435869317536,35.49966109747087
+Bayezid Han,797/798- M.1395/1396,Safranbolu,Alma,1,Bayezid Han,,kılıç yoluyla,,40.424558297796494,30.49065361749772
+Bayezid Han,798- M.1395/1396,Amasya,Alma,1,Bayezid Han,"""Amasya'nın asıl sahibi""",teslim ile,,40.914995349106114,35.78195124971822
+Bayezid Han,798- M.1395/1396,Malatya,Alma,1,Bayezid Han,Türkmen,kılıç yoluyla,1.0,38.50471372738391,38.34795709698067
+Bayezid Han,798- M.1395/1396,Sivas,Alma,1,Bayezid Han,,kılıç yoluyla,,40.534920397710536,36.98293243071495
+Bayezid Han,798- M.1395/1396,Erzincan,Alma,1,Bayezid Han,Taharten,vasal,1.0,39.8260388772025,39.47467545546071
+Bayezid Han,798- M.1395/1396,Divriği,Alma,1,Bayezid Han,Kürt,kılıç yoluyla,1.0,39.4057099774916,38.12840725253044
+Bayezid Han,798- M.1395/1396,Besni,Alma,1,Bayezid Han,Türkmen,kılıç yoluyla,1.0,37.6925143549894,37.8923607040917
+Bayezid Han,804- M.1402/1403,Sivas,Savunma,0,Bayezid Han,Timur,kılıç yoluyla,1.0,40.534920397710536,36.98293243071495
+Bayezid Han,804- M.1402/1403,Erzincan,Savaş kaybı,1,Bayezid Han,Timur,kılıç yoluyla,1.0,39.8260388772025,39.47467545546071
+Bayezid Han,804- M.1402/1404,Sarıkamış,Savaş kaybı,1,Bayezid Han,Timur,kılıç yoluyla,1.0,40.34327292326996,42.59125571960207
+Bayezid Han,804- M.1402/1403,Kastamonu,Savaş kaybı,1,Bayezid Han,Timur,kılıç yoluyla,1.0,40.34327292326996,42.59125571960207
+Bayezid Han,804- M.1402/1403,Ankara,Savaş kaybı,1,Bayezid Han,Timur,kılıç yoluyla,1.0,40.14749517417391,32.91335014124497
+Bayezid Han,804- M.1402/1403,Kırşehir,Savaş kaybı,1,Bayezid Han,Karamanoğlu,kılıç yoluyla,1.0,39.18210435823959,34.17223569455794
+Bayezid Han,804- M.1402/1403,Sivrihisar,Savaş kaybı,1,Bayezid Han,Karamanoğlu,kılıç yoluyla,1.0,39.61078723063112,31.52239198238911
+Bayezid Han,804- M.1402/1403,Beypazarı,Savaş kaybı,1,Bayezid Han,Karamanoğlu,kılıç yoluyla,1.0,40.191678518611006,31.92185685727164
+Bayezid Han,804- M.1402/1403,Kastamonu,Savaş kaybı,1,Bayezid Han,İsfendiyar Bey,kılıç yoluyla,1.0,41.4163758544588,33.775051050211545
+Bayezid Han,804- M.1402/1403,Çankırı,Savaş kaybı,1,Bayezid Han,İsfendiyar Bey,kılıç yoluyla,1.0,40.62408773715474,33.617985205140734
+Bayezid Han,804- M.1402/1403,Kalecik,Savaş kaybı,1,Bayezid Han,İsfendiyar Bey,kılıç yoluyla,1.0,40.121387578173454,33.41283958386873
+Fetret Dönemi,813- M.1410,Bursa,Alma,1,Şehzade Musa,Şehzade İsa,kılıç yoluyla,1.0,40.31600376818615,29.05102657664313
+Fetret Dönemi,813- M.1410,Bursa,Alma,1,Emir Süleyman,Şehzade Musa,teslim ile,1.0,40.31600376818615,29.05102657664313
+Fetret Dönemi,813- M.1410,Bursa,Alma,1,Şehzade Musa,Emir Süleyman,teslim ile,1.0,40.31600376818615,29.05102657664313
+Fetret Dönemi,816- M.1413,Bursa,Alma,1,Sultan Mehmed,Şehzade Musa,teslim ile,1.0,40.31600376818615,29.05102657664313
+Fetret Dönemi,,Samokov,Alma,1,Sultan Mehmed,Şehzade Musa,kılıç yoluyla,1.0,42.35175780237594,23.52274191362345
+Sultan Mehmed,819- M.1416,Bursa,Savunma,1,Hacı İvaz Paşa,Karamanoğlu,kılıç yoluyla,1.0,40.31600376818615,29.05102657664313
+Sultan Mehmed,,Akşehir,Alma,1,Sultan Mehmed,,teslim ile,1.0,38.362451260849326,31.428382320561624
+Sultan Mehmed,,Seydişehir,Alma,1,Sultan Mehmed,Karamanoğlu Muhammed Bey,teslim ile,1.0,37.50675410138692,31.84478257751069
+Sultan Mehmed,,Bayavşar,Alma,1,Sultan Mehmed,Karamanoğlu Muhammed Bey,teslim ile,1.0,37.58432538291617,31.786818342112888
+Sultan Mehmed,,Kırşehir,Alma,1,Sultan Mehmed,Karamanoğlu Muhammed Bey,teslim ile,1.0,39.23052699501551,34.16835005764731
+Sultan Mehmed,,Beyşehir,Alma,1,Sultan Mehmed,Karamanoğlu Muhammed Bey,teslim ile,1.0,37.69490533442823,31.7159215535778
+Sultan Mehmed,,Sivrihisar,Alma,1,Sultan Mehmed,Karamanoğlu Muhammed Bey,teslim ile,1.0,39.61078723063112,31.52239198238911
+Sultan Mehmed,,Cemaze Hisarı,Alma,1,Sultan Mehmed,Karamanoğlu Muhammed Bey,teslim ile,1.0,37.83229811402249,34.98531137016858
+Sultan Mehmed,,Niğde,Alma,1,Sultan Mehmed,Karamanoğlu Muhammed Bey,teslim ile,1.0,38.018657071889066,34.671518440959595
+Sultan Mehmed,,Eflak,Alma,1,Sultan Mehmed,Eflak Beyi,haraca bağlama,0.0,45.05258404235202,24.872632324456525
+Sultan Mehmed,,Çankırı,Alma,1,Sultan Mehmed,İsfendiyar Bey ,hediye,1.0,40.62408773715474,33.617985205140734
+Sultan Mehmed,,Kalecik,Alma,1,Sultan Mehmed,İsfendiyar Bey ,hediye,1.0,40.121387578173454,33.41283958386873
+Sultan Mehmed,,Tosya,Alma,1,Sultan Mehmed,İsfendiyar Bey ,hediye,1.0,41.08184643700388,34.06635404351214
+Sultan Mehmed,,Samsun,Alma,1,"Baçaroglı Hamza Beg, Sultan Mehmed",,kılıç yoluyla,0.0,41.34564287053634,36.35614622599372
+Sultan Mehmed,,Aydın,Alma,1,"Murad Han, Bayezid Paşa",Börklüce Mustafa,kılıç yoluyla,1.0,37.8522865697996,27.86081182650111
+Sultan Mehmed,,Hereke,Alma,1,Sultan Mehmed,,kılıç yoluyla,0.0,40.79352377640596,29.62600254232949
+Sultan Mehmed,,Gebze,Alma,1,Sultan Mehmed,,kılıç yoluyla,0.0,40.79505742671103,29.44027177708526
+Sultan Mehmed,,Darıca,Alma,1,Sultan Mehmed,,teslim ile,0.0,40.77336757995411,29.399143176176214
+Sultan Mehmed,,Pendik,Alma,1,Sultan Mehmed,,kılıç yoluyla,0.0,40.969712686224575,29.25139568420193
+Sultan Mehmed,,Kartal,Alma,1,Sultan Mehmed,,kılıç yoluyla,0.0,40.94683520026021,29.230388835910635
+Sultan Murad Han,,Edirne,Savaş kaybı,1,Bayezid Paşa,Düzmece Mustafa,teslim ile,1.0,41.7231116204477,26.545448705643444
+Sultan Murad Han,,Serez Hisarı,Savaş kaybı,1,Bayezid Paşa,Düzmece Mustafa,teslim ile,1.0,41.10293046307408,23.55059283298985
+Sultan Murad Han,,Gelibolu,Savaş kaybı,1,Bayezid Paşa,Düzmece Mustafa,teslim ile,1.0,40.43103705075337,26.67217810168033
+Sultan Murad Han,,Sazlıdere,Savaş kaybı,1,Bayezid Paşa,Düzmece Mustafa,teslim ile,1.0,40.6598273084574,26.6850521631635
+Sultan Murad Han,,Lapseki,Alma,1,Bayezid Paşa,Düzmece Mustafa,teslim ile,1.0,40.3438410227686,26.6856941355831
+Sultan Murad Han,,Gelibolu,Alma,1,Bayezid Paşa,Düzmece Mustafa,teslim ile,1.0,40.43103705075337,26.67217810168033
+Sultan Murad Han,,Edirne,Alma,1,Sultan Murad Han,Düzmece Mehmed,teslim ile,1.0,41.7231116204477,26.545448705643444
+Sultan Murad Han,,İnceğiz,Savaş kaybı,1,Sultan Murad Han,İstanbul tekfuru,teslim ile,0.0,41.18822534337433,28.40238546300857
+Sultan Murad Han,,Bolu,Alma,1,Sultan Murad Han,İsfendiyar,kılıç yoluyla,1.0,40.73246938960355,31.60801965043986
+Sultan Murad Han,,Kastamonu,Alma,1,Sultan Murad Han,İsfendiyar,kılıç yoluyla,1.0,40.34327292326996,42.59125571960207
+Sultan Murad Han,,İpsili Kalesi,Alma,0,Sultan Murad Han,İzmiroğlu,kılıç yoluyla,1.0,38.0472763633102,26.8611272858565
+Sultan Murad Han,829- M.1426,İpsili Kalesi,Alma,1,Sultan Murad Han,İzmiroğlu,kılıç yoluyla,1.0,38.0472763633102,26.8611272858565
+Sultan Murad Han,829- M.1426,Muğla,Alma,1,Hamza Bey,İzmiroğlu,kılıç yoluyla,1.0,37.219034312634,28.3653107021612
+Sultan Murad Han,,Antalya,Savunma,1,Sultan Murad Han,Karamanoğlu Mehmed Bey,kılıç yoluyla,1.0,36.8866842240886,30.705052181542
+Sultan Murad Han,,Isparta,Alma,1,Sultan Murad Han,Karamanoğlu İbrahim Bey,teslim ile,1.0,37.763570528663,30.5567380220942
+Sultan Murad Han,,Eğrikale,Alma,1,Yörgüç,Haydar bey,teslim ile,1.0,41.3507168017521,35.3154182167298
+Sultan Murad Han,,Kütahya,Alma,1,Sultan Murad Han,Germiyanoğlu,teslim ile,1.0,39.41971254301027,29.97313686981004
+Sultan Murad Han,831- M.1427/1428,Sırbistan,Alma,1,Sultan Murad Han,Vılkoğlu,teslim ile,0.0,45.266572,18.539631
+Sultan Murad Han,833- M. 1429/1430,Selanik,Alma,1,Sultan Murad Han,,kılıç yoluyla,0.0,40.63492155816,22.948068966269
+Sultan Murad Han,837- M. 1434,Vidin,Savunma,1,"Vidin Sinan'ı, Sinan Bey",,kılıç yoluyla,0.0,43.9930034070694,22.8864044355817
+Sultan Murad Han,839- M. 1435/1436,Akşehir,Alma,1,Sultan Murad Han,Karamanoğlu İbrahim Bey,kılıç yoluyla,1.0,38.362451260849326,31.428382320561624
+Sultan Murad Han,839- M. 1435/1436,Konya,Alma,1,Sultan Murad Han,Karamanoğlu İbrahim Bey,kılıç yoluyla,1.0,37.87515495223701,32.49382428352262
+Sultan Murad Han,846- M. 1442,Arnavutluk,Alma,1,İsa Bey,İskender Bey,kılıç yoluyla,0.0,41.327546,19.818698
+Sultan Murad Han,,Belgrad,Alma,0,Sultan Murad Han,,kılıç yoluyla,0.0,44.806919,20.417846
+Sultan Murad Han,841- M. 1436,Semendire,Alma,1,Sultan Murad Han,,kılıç yoluyla,0.0,40.99569903588193,29.22779721667578
+Sultan Murad Han,841- M. 1437,Sırbistan,Alma,1,Sultan Murad Han,,kılıç yoluyla,0.0,45.266572,18.539631
+Sultan Murad Han,843- M. 1439,Germehisarı,Alma,1,Sultan Murad Han,,kılıç yoluyla,0.0,37.9379807419912,22.9995704926389
+Sultan Murad Han,,Mora,Alma,1,Sultan Murad Han,,kılıç yoluyla,0.0,37.349722,22.352222
+Sultan Murad Han,,Eflak,Alma,0,Kula Şahin,,kılıç yoluyla,0.0,43.249356,26.572736
+Sultan Murad Han,,Semendire,Savaş kaybı,1,Sultan Murad Han,Vılkoğlu,kılıç yoluyla,0.0,40.99569903588193,29.22779721667578
+Sultan Murad Han,847- M. 1443,Varna,Alma,1,Sultan Murad Han,Vılkoğlu,kılıç yoluyla,0.0,43.2365766486893,27.8670204985883
+Sultan Murad Han,851- M. 1447,Akçahisar,Alma,1,Sultan Murad Han,İskender Bey,kılıç yoluyla,0.0,41.509477,19.771073
+Sultan Murad Han,852- M. 1448,Kosova,Alma,1,Sultan Murad Han,Yanko Hunyad,kılıç yoluyla,0.0,42.633934,21.078823
+Sultan Mehmed Han Gazi,855- M. 1451,Akşehir,Alma,1,Sultan Mehmed Han Gazi,,kılıç yoluyla,1.0,38.362451260849326,31.428382320561624
+Sultan Mehmed Han Gazi,857- M. 1453,İstanbul,Alma,1,Sultan Mehmed Han Gazi,,kılıç yoluyla,0.0,41.00717338169597,28.97596648336709
+Sultan Mehmed Han Gazi,857/858- M.1453/1454,Tanoz Hisarı,Alma,1,Sultan Mehmed Han Gazi,,kılıç yoluyla,0.0,40.73188808751143,24.633791469081505
+Sultan Mehmed Han Gazi,857/858- M.1453/1454,Limoz Hisarı,Alma,1,Sultan Mehmed Han Gazi,,kılıç yoluyla,0.0,39.920244844398624,25.14289331660017
+Sultan Mehmed Han Gazi,857/858- M.1453/1454,Enez,Alma,1,Sultan Mehmed Han Gazi,Enez tekfuru,kılıç yoluyla,0.0,40.72428300000041,26.08100691534537
+Sultan Mehmed Han Gazi,858- M.1454,Sivricehisar,Alma,1,Sultan Mehmed Han Gazi,Vılkoğlu'nun kızı,kılıç yoluyla,0.0,43.300697,22.145637
+Sultan Mehmed Han Gazi,858- M.1454,Trepça,Alma,1,Sultan Mehmed Han Gazi,Vılkoğlu'nun kızı,kılıç yoluyla,0.0,42.9730808702495,19.8192362079589
+Sultan Mehmed Han Gazi,861- M.1456/1457,Belgrad,Alma,0,Sultan Mehmed Han Gazi,,kılıç yoluyla,0.0,44.8318041948052,20.4246569267365
+Sultan Mehmed Han Gazi,861- M. 1457,Mora,Alma,1,Sultan Mehmed Han Gazi,,kılıç yoluyla,0.0,37.349722,22.352222
+Sultan Mehmed Han Gazi,861- M. 1457,Güvercinlik Kalesi,Alma,1,Mahmud Paşa,,kılıç yoluyla,0.0,44.674003331029866,21.672293439793336
+Sultan Mehmed Han Gazi,861- M. 1457,Görice,Alma,1,Mahmud Paşa,,kılıç yoluyla,0.0,40.61406874629631,20.7774779423464
+Sultan Mehmed Han Gazi,861- M. 1457,Bıranc,Alma,1,Mahmud Paşa,,kılıç yoluyla,0.0,44.692222,21.553429
+Sultan Mehmed Han Gazi,861- M. 1457,Drvengrad,Savunma,1,Sultan Mehmed Han Gazi,Macar Ordusu,kılıç yoluyla,0.0,43.796105974076696,19.507269948558296
+Sultan Mehmed Han Gazi,864- M. 1459/1460,Eğriboz,Alma,1,Sultan Mehmed Han Gazi,Karluğulları,kılıç yoluyla,0.0,38.51425353929661,24.004939759297194
+Sultan Mehmed Han Gazi,864- M. 1459/1460,Semendire,Alma,1,Mahmud Paşa,,teslim ile,0.0,40.99569903588193,29.22779721667578
+Sultan Mehmed Han Gazi,864/865- M. 1460/1461,Amasra,Alma,1,Sultan Mehmed Han Gazi,Amasra tekfuru,teslim ile,0.0,41.74932042805,32.38862154060678
+Sultan Mehmed Han Gazi,865- M.1460/1461,Sinop,Alma,1,Sultan Mehmed Han Gazi,İsmail Bey,teslim ile,1.0,42.02402457596966,35.15210598761006
+Sultan Mehmed Han Gazi,865- M.1460/1461,Kastamonu,Alma,1,Sultan Mehmed Han Gazi,İsmail Bey,teslim ile,1.0,40.34327292326996,42.59125571960207
+Sultan Mehmed Han Gazi,865- M.1460/1461,Koyulhisar,Alma,1,Sultan Mehmed Han Gazi,Uzun Hasan,kılıç yoluyla,1.0,40.43283637951475,38.02532233920336
+Sultan Mehmed Han Gazi,865- M.1460/1461,Trabzon,Alma,1,Sultan Mehmed Han Gazi,Uzun Hasan,kılıç yoluyla,1.0,41.001174531964594,39.718942311576114
+Sultan Mehmed Han Gazi,866- M. 1461/1462,Eflak,Alma,1,Sultan Mehmed Han Gazi,Kazıklı Voyvoda,kılıç yoluyla,0.0,43.249356,26.572736
+Sultan Mehmed Han Gazi,866- M. 1461/1462,Midilli,Alma,1,Sultan Mehmed Han Gazi,Midilli tekfuru,pes ettirme,0.0,39.12729464232194,26.566976222236825
+Sultan Mehmed Han Gazi,867- M. 1462/1463,Saraybosna,Alma,1,Mahmud Paşa,Bosna Kralı,teslim ile,0.0,43.856259,18.413076
+Sultan Mehmed Han Gazi,,Arnavutluk,Alma,1,Sultan Mehmed Han Gazi,Arnavut beyleri,teslim ile,0.0,41.327546,19.818698
+Sultan Mehmed Han Gazi,872- M. 1467/1468,Gevale Kalesi,Alma,1,Sultan Mehmed Han Gazi,Pir Ahmed,kılıç yoluyla,1.0,37.90892332066495,32.3536036502999
+Sultan Mehmed Han Gazi,874- M.1469/1470,Eğriboz,Alma,1,Sultan Mehmed Han Gazi,,kılıç yoluyla,0.0,38.51425353929661,24.004939759297194
+Sultan Mehmed Han Gazi,876- M.1471/1472,Alanya,Alma,1,Gedik Ahmed Paşa,Kılıç Arslan Bey,kılıç yoluyla,1.0,36.53367213469512,31.99231741175004
+Sultan Mehmed Han Gazi,877- M. 1472-1473,Mennan Kalesi,Alma,1,Gedik Ahmed Paşa,Pir Ahmed,kılıç yoluyla,1.0,36.54184011162469,32.976159239259374
+Sultan Mehmed Han Gazi,877- M. 1472-1473,Lülü,Alma,1,Gedik Ahmed Paşa,,kılıç yoluyla,1.0,37.583359103320376,34.69858443068246
+Sultan Mehmed Han Gazi,877- M. 1472-1474,Silifke,Savaş kaybı,1,,Kasım Bey,kılıç yoluyla,1.0,36.377085694986185,33.921043148632045
+Sultan Mehmed Han Gazi,877- M.1472-1473,Silifke,Alma,1,Gedik Ahmed Paşa,Kasım Bey,kılıç yoluyla,1.0,36.377085694986185,33.921043148632045
+Sultan Mehmed Han Gazi,880- M. 1475-1476,Kefe,Alma,1,Gedik Ahmed Paşa,Kefe tekfuru,pes ettirme,0.0,45.02264321903731,35.39854124340845
+Sultan Mehmed Han Gazi,880- M. 1475-1476,Azak,Alma,1,Gedik Ahmed Paşa,,kılıç yoluyla,0.0,47.11588029226536,39.42127302362438
+Sultan Mehmed Han Gazi,880- M. 1475-1476,Manhup Kale,Alma,1,Gedik Ahmed Paşa,Menküb tekfuru,kılıç yoluyla,0.0,44.594555049847024,33.80828646705077
+Sultan Mehmed Han Gazi,881- M. 1476-1477,Moldova,Alma,1,Sultan Mehmed Han Gazi,,kılıç yoluyla,0.0,47.645654399859566,26.270677957662155
+Sultan Mehmed Han Gazi,883- M. 1478/1479,İşkodra,Alma,1,Sultan Mehmed Han Gazi,,pes ettirme,0.0,42.0495277350728,19.4687660884828
+Sultan Bayezid Han Gazi,889/890- M. 1484/1485,Kili,Alma,1,Sultan Bayezid Han Gazi,,pes ettirme,0.0,45.46520431615094,29.24875619695303
+Sultan Bayezid Han Gazi,890- M. 1486,Akkerman Kalesi,Alma,1,Sultan Bayezid Han Gazi,,pes ettirme,0.0,46.20085243837001,30.3515812221857
+Sultan Bayezid Han Gazi,890- M.1485,Adana,Alma,1,Karagöz Mehmed Paşa,,teslim ile,1.0,36.98870847881408,35.332333680408496
+Sultan Bayezid Han Gazi,890- M.1485,Gülek,Alma,1,Karagöz Mehmed Paşa,,teslim ile,1.0,37.27073699106089,34.7894448748304
+Sultan Bayezid Han Gazi,890- M.1485,Tarsus,Alma,1,Karagöz Mehmed Paşa,,teslim ile,1.0,36.91723107102312,34.89774997218844
