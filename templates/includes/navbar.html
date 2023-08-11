@@ -3,16 +3,24 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link" href="/about">About Us </a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="/article">Article</a>
           </li>
-            <li class="nav-item active">
-            <a class="nav-link" href="/maps">Maps</a>
+          <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="/maps" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Maps
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/maps">Map 1</a>
+                <a class="dropdown-item" href="/maps">Map 2</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/maps">Another Map</a>
+              </div>
           </li>
             <li class = "nav-item active">
                 <a class=" nav-link" href="https://www.sabanciuniv.edu/"> Sabancı University</a>
@@ -24,9 +32,6 @@
               <a class= "nav-link" href="/register" >Register</a>
 
           </li>
-
-
         </ul>
-
       </div>
     </nav>
