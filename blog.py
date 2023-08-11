@@ -3,7 +3,7 @@ import pandas as pd
 import subprocess
 import folium
 from folium.plugins import MarkerCluster, HeatMap
-from flask  import Flask, render_template
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
@@ -37,17 +37,15 @@ def update_map(event):
     marker_cluster = MarkerCluster().add_to(map_plot)
 
     for _, row in subset.iterrows():
-        html = f"""       
-                    <h1> Fetih Hakkında</h1>
+        html = f""" <h1> Fetih Hakkında</h1>
                     <p> Dönem: {row['Era']}  <br>
                     Sene: {row['Sene']}   <br>
                     Yerin Adı: {row['Yerin Adı']}  <br>
-                    Niyet: {row['Niyet']}   <br>
-                    Başarı: {row['Success']}   <br>
+                    Olay: {"Başarılı " if (row['Success']== "1") else "Başarısız "} {row['Niyet']} <br>
                     Osmanlı Lideri: {row['Ottoman leaders']}  <br>
                     Düşman Lideri: {row['Opponent leader']}   <br>
-                    Yöntem: {row['Method']}  <br>
-                    Düşman Müslüman mı: {row['isOpponentMuslim']}</p> 
+                    Yöntem: {row['Method'].capitalize()}  <br>
+                    Düşman Müslüman mı: {"Evet" if row['isOpponentMuslim'] == 1.0 else "Hayır"}</p> 
                     <a href="https://tr.wikipedia.org/wiki/{row['Yerin Adı']}" target="_blank">
                         <button>{row['Yerin Adı']} nasıl bir yer?</button>
                     </a>
@@ -84,21 +82,19 @@ def update_slider_map(event):
     marker_cluster = MarkerCluster().add_to(map_plot)
 
     for _, row in subset.iterrows():
-        html = f"""
-                  <h1> Fetih Hakkında</h1>
+        html = f""" <h1> Fetih Hakkında</h1>
                     <p> Dönem: {row['Era']}  <br>
                     Sene: {row['Sene']}   <br>
                     Yerin Adı: {row['Yerin Adı']}  <br>
-                    Niyet: {row['Niyet']}   <br>
-                    Başarı: {row['Success']}   <br>
+                    Olay: {"Başarılı " if (row['Success']== "1") else "Başarısız "} {row['Niyet']} <br>
                     Osmanlı Lideri: {row['Ottoman leaders']}  <br>
                     Düşman Lideri: {row['Opponent leader']}   <br>
-                    Yöntem: {row['Method']}  <br>
-                    Düşman Müslüman mı: {row['isOpponentMuslim']}</p> 
+                    Yöntem: {row['Method'].capitalize()}  <br>
+                    Düşman Müslüman mı: {"Evet" if row['isOpponentMuslim'] == 1.0 else "Hayır"}</p> 
                     <a href="https://tr.wikipedia.org/wiki/{row['Yerin Adı']}" target="_blank">
                         <button>{row['Yerin Adı']} nasıl bir yer?</button>
                     </a>
-                  """
+                """
         iframe = folium.IFrame(html,
                                width=250,
                                height=225)
@@ -159,7 +155,7 @@ slider_layout = pn.Row(slider, slider_map_div)
 king_selector_layout = pn.Row(king_selector, map_div)
 slider2_layout = pn.Row(slider2, slider2_map_div)
 
-app_layout = pn.Column(slider_layout, king_selector_layout,slider2_layout, sizing_mode='stretch_both')
+app_layout = pn.Column(slider_layout, king_selector_layout, slider2_layout, sizing_mode='stretch_both')
 update_slider_map(None)
 update_map(None)
 update_slider_HeatMap(None)
