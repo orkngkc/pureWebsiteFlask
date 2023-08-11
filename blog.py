@@ -8,8 +8,8 @@ from flask  import Flask, render_template
 app = Flask(__name__)
 
 conquests = pd.read_csv("data.csv")
-conquests["Opponent leader"].fillna("Bilinmiyor",inplace = True)
-conquests["Sene"].fillna("Bilinmiyor",inplace = True)
+conquests["Opponent leader"].fillna("Bilinmiyor", inplace=True)
+conquests["Sene"].fillna("Bilinmiyor", inplace=True)
 conquests["Success"]=conquests["Success"].astype(str)
 conquests["isOpponentMuslim"]=conquests["isOpponentMuslim"].astype(str)
 
@@ -38,17 +38,20 @@ def update_map(event):
 
     for _, row in subset.iterrows():
         html = f"""       
-                          <h1> Fetih Hakkında</h1>
-                          Dönem: {row['Era']}  <br>
-                          Sene: {row['Sene']}   <br>
-                          Yerin Adı: {row['Yerin Adı']}  <br>
-                          Niyet: {row['Niyet']}   <br>
-                          Başarı: {row['Success']}   <br>
-                          Osmanlı Lideri: {row['Ottoman leaders']}  <br>
-                          Düşman Lideri: {row['Opponent leader']}   <br>
-                          Yöntem: {row['Method']}  <br>
-                          Düşman Müslüman mı: {row['isOpponentMuslim']} 
-                          """
+                    <h1> Fetih Hakkında</h1>
+                    <p> Dönem: {row['Era']}  <br>
+                    Sene: {row['Sene']}   <br>
+                    Yerin Adı: {row['Yerin Adı']}  <br>
+                    Niyet: {row['Niyet']}   <br>
+                    Başarı: {row['Success']}   <br>
+                    Osmanlı Lideri: {row['Ottoman leaders']}  <br>
+                    Düşman Lideri: {row['Opponent leader']}   <br>
+                    Yöntem: {row['Method']}  <br>
+                    Düşman Müslüman mı: {row['isOpponentMuslim']}</p> 
+                    <a href="https://tr.wikipedia.org/wiki/{row['Yerin Adı']}" target="_blank">
+                        <button>{row['Yerin Adı']} nasıl bir yer?</button>
+                    </a>
+                """
         iframe = folium.IFrame(html,
                                width=250,
                                height=225)
@@ -83,15 +86,18 @@ def update_slider_map(event):
     for _, row in subset.iterrows():
         html = f"""
                   <h1> Fetih Hakkında</h1>
-                  Dönem: {row['Era']}  <br>
-                  Sene: {row['Sene']}   <br>
-                  Yerin Adı: {row['Yerin Adı']}  <br>
-                  Niyet: {row['Niyet']}   <br>
-                  Başarı: {row['Success']}   <br>
-                  Osmanlı Lideri: {row['Ottoman leaders']}  <br>
-                  Düşman Lideri: {row['Opponent leader']}   <br>
-                  Yöntem: {row['Method']}  <br>
-                  Düşman Müslüman mı: {row['isOpponentMuslim']}
+                    <p> Dönem: {row['Era']}  <br>
+                    Sene: {row['Sene']}   <br>
+                    Yerin Adı: {row['Yerin Adı']}  <br>
+                    Niyet: {row['Niyet']}   <br>
+                    Başarı: {row['Success']}   <br>
+                    Osmanlı Lideri: {row['Ottoman leaders']}  <br>
+                    Düşman Lideri: {row['Opponent leader']}   <br>
+                    Yöntem: {row['Method']}  <br>
+                    Düşman Müslüman mı: {row['isOpponentMuslim']}</p> 
+                    <a href="https://tr.wikipedia.org/wiki/{row['Yerin Adı']}" target="_blank">
+                        <button>{row['Yerin Adı']} nasıl bir yer?</button>
+                    </a>
                   """
         iframe = folium.IFrame(html,
                                width=250,
@@ -123,9 +129,6 @@ def update_slider_HeatMap(event):
     map_plot = folium.Map(location=[subset["lat"].mean()-1, subset["lon"].mean()+5], zoom_start=5, width=800, height=600)
     heat_data = [[row["lat"], row["lon"]] for index, row in subset.iterrows()]
     HeatMap(heat_data).add_to(map_plot)
-
-
-
 
     slider2_map_div.object = map_plot._repr_html_()
 
@@ -173,7 +176,9 @@ def about():
 @app.route("/maps")
 def maps():
     return render_template("maps.html")
+
+
 if __name__ == "__main__":
     panel_process = subprocess.Popen(['panel', 'serve', 'blog.py', '--allow-websocket-origin=*'])
-    app.run(debug = True)
+    app.run(debug=True)
     panel_process.terminate()
