@@ -104,6 +104,21 @@ def update_slider_map(event):
 
     slider_map_div.object = map_plot._repr_html_()
 
+def update_heatmap(event):
+    selected_era = king_selector_.value
+
+    subset = conquests[conquests.Era == selected_era]
+
+    map_plot = folium.Map(location=[subset["lat"].mean(), subset["lon"].mean()], zoom_start=5, width=800, height=250)
+
+    heat_data = [[row["lat"], row["lon"]] for index, row in subset.iterrows()]
+    HeatMap(heat_data).add_to(map_plot)
+
+    #update
+
+
+    heat_map_div.object = map_plot._repr_html_()
+
 def update_slider_HeatMap(event):
     n = slider2.value
     subset = conquests.loc[0:n, :]
@@ -150,15 +165,24 @@ slider2.param.watch(update_slider_HeatMap, "value")
 
 slider2_map_div = pn.pane.HTML(height = 600,width=800)
 
+#Heat Map Padisah
+
+king_selector_ = pn.widgets.Select(options=conquests["Era"].unique().tolist())
+king_selector_.param.watch(update_heatmap, "value")
+
+heat_map_div = pn.pane.HTML(height = 600,width=800)
+
 # Layout
 slider_layout = pn.Row(slider, slider_map_div)
 king_selector_layout = pn.Row(king_selector, map_div)
 slider2_layout = pn.Row(slider2, slider2_map_div)
+heat_map_layout = pn.Row(king_selector_, heat_map_div)
 
-app_layout = pn.Column(slider_layout, king_selector_layout, slider2_layout, sizing_mode='stretch_both')
+app_layout = pn.Column(slider_layout, king_selector_layout, slider2_layout, heat_map_layout, sizing_mode='stretch_both')
 update_slider_map(None)
 update_map(None)
 update_slider_HeatMap(None)
+update_heatmap(None)
 app_layout.servable()
 
 
