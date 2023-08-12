@@ -107,7 +107,8 @@ def update_slider_map(event):
 def update_heatmap(event):
     selected_era = king_selector_.value
 
-    subset = conquests[conquests.Era == selected_era]
+    num = conquests[conquests.Era == selected_era].index[-1]
+    subset = conquests.loc[:num, :]  # padişahları kümülatif almak için yaptık bunun yanında categorize da denenebilir ama bu daha kısa bi koddu
 
     map_plot = folium.Map(location=[subset["lat"].mean(), subset["lon"].mean()], zoom_start=5, width=800, height=600)
 
