@@ -109,7 +109,7 @@ def update_heatmap(event):
 
     subset = conquests[conquests.Era == selected_era]
 
-    map_plot = folium.Map(location=[subset["lat"].mean(), subset["lon"].mean()], zoom_start=5, width=800, height=250)
+    map_plot = folium.Map(location=[subset["lat"].mean(), subset["lon"].mean()], zoom_start=5, width=800, height=600)
 
     heat_data = [[row["lat"], row["lon"]] for index, row in subset.iterrows()]
     HeatMap(heat_data).add_to(map_plot)
