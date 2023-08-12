@@ -173,6 +173,9 @@ def about():
 def maps():
     return render_template("maps.html")
 
+@app.route("/book")
+def book():
+    return render_template("book.html")
 
 if __name__ == "__main__":
     panel_process = subprocess.Popen(['panel', 'serve', 'blog.py', '--allow-websocket-origin=*'])
