@@ -107,7 +107,7 @@ def update_heatmap(event):
     num = conquests[conquests.Era == selected_era].index[-1]
     subset = conquests.loc[:num, :]  # padişahları kümülatif almak için yaptık bunun yanında categorize da denenebilir ama bu daha kısa bi koddu
 
-    map_plot = folium.Map(location=[subset["lat"].mean(), subset["lon"].mean()], zoom_start=5, width=800, height=600)
+    map_plot = folium.Map(location=[subset["lat"].mean()-1, subset["lon"].mean()+5], zoom_start=5, width=800, height=600)
 
     heat_data = [[row["lat"], row["lon"]] for index, row in subset.iterrows()]
     HeatMap(heat_data).add_to(map_plot)
