@@ -13,9 +13,6 @@ conquests["Sene"].fillna("Bilinmiyor", inplace=True)
 conquests["Success"]=conquests["Success"].astype(str)
 conquests["isOpponentMuslim"]=conquests["isOpponentMuslim"].astype(str)
 
-#conquests["det"] = "Dönem: " + conquests["Era"] + "\n"+" Sene: "+ conquests["Sene"]  + "\n" +" Yerin Adı: " + conquests["Yerin Adı"] + "\n" + "Niyet: " + conquests["Niyet"] + "\n" + "Başarı: " + conquests["Success"].astype(str) + "\n" + "Osmanlı Lideri: " + conquests["Ottoman leaders"] + "\n" + "Düşman Lideri: " + conquests["Opponent leader"] + "\n" + "Yöntem: " + conquests["Method"] + "\n" + "Düşman Müslüman mı: " + conquests["isOpponentMuslim"].astype(str)
-# başarılı başarısız column'u ve alma ve müslüman mı değil mi 1-0 şeklinde
-# onları replace et özellikle başarılı başarısız
 def update_map(event):
 
     selected_king = king_selector.value
