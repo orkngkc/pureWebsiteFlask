@@ -42,7 +42,7 @@ def update_map(event):
                     Osmanlı Lideri: {row['Ottoman leaders']}  <br>
                     Düşman Lideri: {row['Opponent leader']}   <br>
                     Yöntem: {row['Method'].capitalize()}  <br>
-                    Düşman Müslüman mı: {"Evet" if row['isOpponentMuslim'] == 1.0 else "Hayır"}</p> 
+                    Düşman Müslüman mı: {"Evet" if row['isOpponentMuslim'] == "1.0" else "Hayır"}</p> 
                     <a href="https://tr.wikipedia.org/wiki/{row['Yerin Adı']}" target="_blank">
                         <button>{row['Yerin Adı']} nasıl bir yer?</button>
                     </a>
@@ -87,7 +87,7 @@ def update_slider_map(event):
                     Osmanlı Lideri: {row['Ottoman leaders']}  <br>
                     Düşman Lideri: {row['Opponent leader']}   <br>
                     Yöntem: {row['Method'].capitalize()}  <br>
-                    Düşman Müslüman mı: {"Evet" if row['isOpponentMuslim'] == 1.0 else "Hayır"}</p> 
+                    Düşman Müslüman mı: {"Evet" if row['isOpponentMuslim'] == "1.0" else "Hayır"}</p> 
                     <a href="https://tr.wikipedia.org/wiki/{row['Yerin Adı']}" target="_blank">
                         <button>{row['Yerin Adı']} nasıl bir yer?</button>
                     </a>
