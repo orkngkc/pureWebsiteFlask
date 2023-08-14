@@ -22,13 +22,13 @@ def update_map(event):
         "Ertuğrul Gazi": "blue",
         "Osman Gazi": "red",
         "Orhan Gazi": "pink",
-        "Murad Han Gazi": "orange",
-        "Bayezid Han": "purple",
+        "Murad I (Hüdavendigar)": "orange",
+        "Bayezid I (Yıldırım)": "purple",
         "Fetret Dönemi": "black",
-        "Sultan Mehmed": "brown",
-        "Sultan Murad Han": "cadetblue",
-        "Sultan Mehmed Han Gazi": "gray",
-        "Sultan Bayezid Han Gazi": "darkred",
+        "Mehmed I (Çelebi)": "brown",
+        "Murad II": "cadetblue",
+        "Mehmed II (Fatih)": "gray",
+        "Bayezid II": "darkred",
     }
     map_plot = folium.Map(location=[subset["lat"].mean()-2, subset["lon"].mean()+5], zoom_start=5, width=800, height=600)
     marker_cluster = MarkerCluster().add_to(map_plot)
@@ -66,13 +66,13 @@ def update_slider_map(event):
         "Ertuğrul Gazi": "blue",
         "Osman Gazi": "red",
         "Orhan Gazi": "pink",
-        "Murad Han Gazi": "orange",
-        "Bayezid Han": "purple",
+        "Murad I (Hüdavendigar)": "orange",
+        "Bayezid I (Yıldırım)": "purple",
         "Fetret Dönemi": "black",
-        "Sultan Mehmed": "brown",
-        "Sultan Murad Han": "cadetblue",
-        "Sultan Mehmed Han Gazi": "gray",
-        "Sultan Bayezid Han Gazi": "darkred",
+        "Mehmed I (Çelebi)": "brown",
+        "Murad II": "cadetblue",
+        "Mehmed II (Fatih)": "gray",
+        "Bayezid II": "darkred",
 
     }
     map_plot = folium.Map(location=[subset["lat"].mean()-1, subset["lon"].mean()+5], zoom_start=5, width=800, height=600)
@@ -121,20 +121,7 @@ def update_slider_HeatMap(event):
     n = slider2.value
     subset = conquests.loc[0:n, :]
 
-    color_map = {
 
-        "Ertuğrul Gazi": "blue",
-        "Osman Gazi": "red",
-        "Orhan Gazi": "pink",
-        "Murad Han Gazi": "orange",
-        "Bayezid Han": "purple",
-        "Fetret Dönemi": "black",
-        "Sultan Mehmed": "brown",
-        "Sultan Murad Han": "cadetblue",
-        "Sultan Mehmed Han Gazi": "gray",
-        "Sultan Bayezid Han Gazi": "darkred",
-
-    }
     map_plot = folium.Map(location=[subset["lat"].mean()-1, subset["lon"].mean()+5], zoom_start=5, width=800, height=600)
     heat_data = [[row["lat"], row["lon"]] for index, row in subset.iterrows()]
     HeatMap(heat_data).add_to(map_plot)
