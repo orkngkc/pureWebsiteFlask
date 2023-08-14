@@ -14,7 +14,7 @@ conquests["Success"]=conquests["Success"].astype(str)
 conquests["isOpponentMuslim"]=conquests["isOpponentMuslim"].astype(str)
 
 def update_map(event):
-
+#deneme commiti
     selected_king = king_selector.value
     subset = conquests[conquests["Era"] == selected_king]
 
