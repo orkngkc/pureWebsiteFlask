@@ -1,4 +1,4 @@
-from blog import *
+from main import *
 
 def update_heatmap(event):
     selected_era = king_selector_.value

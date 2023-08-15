@@ -1,4 +1,4 @@
-from blog import *
+from main import *
 
 def update_map(event):
 #deneme commiti
