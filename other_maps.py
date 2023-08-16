@@ -19,7 +19,7 @@ def update_map(event):
         "Mehmed II (Fatih)": "gray",
         "Bayezid II": "darkred",
     }
-    map_plot = folium.Map(location=[subset["lat"].mean()-2, subset["lon"].mean()+5], zoom_start=5, width=800, height=600)
+    map_plot = folium.Map(location=[subset["lat"].mean()-2, subset["lon"].mean()+5], zoom_start=5, width=800, height=600, control_scale=True, tiles="Stamen Terrain")
     marker_cluster = MarkerCluster().add_to(map_plot)
 
     for _, row in subset.iterrows():
@@ -64,7 +64,7 @@ def update_slider_map(event):
         "Bayezid II": "darkred",
 
     }
-    map_plot = folium.Map(location=[subset["lat"].mean()-1, subset["lon"].mean()+5], zoom_start=5, width=800, height=600)
+    map_plot = folium.Map(location=[subset["lat"].mean()-1, subset["lon"].mean()+5], zoom_start=5, width=800, height=600, control_scale=True, tiles="Stamen Terrain")
     marker_cluster = MarkerCluster().add_to(map_plot)
 
     for _, row in subset.iterrows():
