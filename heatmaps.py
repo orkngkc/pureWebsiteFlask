@@ -1,5 +1,7 @@
 from main import *
-
+import folium
+from folium.plugins import MarkerCluster, HeatMap
+import panel as pn
 def update_heatmap(event):
     selected_era = king_selector_.value
 

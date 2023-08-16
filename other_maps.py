@@ -1,5 +1,7 @@
 from main import *
-
+import folium
+from folium.plugins import MarkerCluster, HeatMap
+import panel as pn
 def update_map(event):
 #deneme commiti
     selected_king = king_selector.value
