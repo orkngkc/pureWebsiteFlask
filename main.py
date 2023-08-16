@@ -1,8 +1,5 @@
-import panel as pn
 import pandas as pd
 import subprocess
-import folium
-from folium.plugins import MarkerCluster, HeatMap
 from flask import Flask, render_template
 
 app = Flask(__name__)
