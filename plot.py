@@ -20,7 +20,7 @@ def update_plot(selected_king):
     # Create a bar trace using go.Bar
     fig = px.bar(subset, x=subset.index, y=subset.values,
                  color='Sosyal Grup',
-                 title=f"{selected_king} Dönemi Öncesi Sosyal Gruplar",
+                 title=f"{selected_king} Dönemi Sosyal Gruplar",
                  labels={'pop': 'Sosyal Gruplar', "y": "Count", "x": "Sosyal Gruplar"}, height=400)
 
     return fig
