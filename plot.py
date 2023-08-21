@@ -1,16 +1,12 @@
 import plotly.express as px
 import pandas as pd
 import panel as pn
-from pandas.api.types import CategoricalDtype
 
 tipler = pd.read_excel("Tipler Revize.xlsx")
 tipler["Padişah Dönemi"] = tipler["Padişah Dönemi"].str.strip()
 sultan_list = tipler["Padişah Dönemi"].unique().tolist()
 sultan_list.insert(1, 'Ertuğrul Gazi')
 sultan_list.pop()
-cat_dtype = CategoricalDtype(categories = sultan_list, ordered = True)
-tipler["Padişah Dönemi"] = tipler["Padişah Dönemi"].astype(cat_dtype)
-
 pn.extension("plotly")
 
 
@@ -20,7 +16,7 @@ def update_plot(selected_king):
     # Create a bar trace using go.Bar
     fig = px.bar(subset, x=subset.index, y=subset.values,
                  color='Sosyal Grup',
-                 title=f"{selected_king} Dönemi Sosyal Gruplar",
+                 title=f"{selected_king} Dönemi Öncesi Sosyal Gruplar",
                  labels={'pop': 'Sosyal Gruplar', "y": "Count", "x": "Sosyal Gruplar"}, height=400)
 
     return fig
@@ -39,42 +35,74 @@ def selector_callback(event):
     updated_fig = update_plot(selected_king)
     responsive.object = updated_fig
 
-cross = pd.crosstab(tipler['Sosyal Grup'], tipler["Sıfat Değeri"])
-cross['total'] = cross['-'] + cross['Nötr'] + cross['nötr'] + cross['Olumlu'] + cross['Olumsuz'] + cross['n']
-cross['percentage'] = (cross["Olumlu"] / cross["total"]) * 100
-percentage_subset = cross[cross.total >= 3].iloc[1:, 7:]
-percentage_subset.index.name = None
-percentage_subset.columns.name = None
-percentage_subset = percentage_subset["percentage"].squeeze()
 
-subset1 = tipler[tipler["Padişah Dönemi"] < 'Murad II']["Sosyal Grup"].value_counts()
-subset1 = subset1[subset1.values >=3]
-fig1 = px.bar(subset1, x=subset1.index, y=subset1.values,
-             color='Sosyal Grup',
-             title = f"Murad II Dönemi Öncesi Sosyal Gruplar",
-             labels={'pop':'Sosyal Gruplar', "y": "Count", "x":"Sosyal Gruplar"}, height=400,width=600)
-subset = tipler[tipler["Padişah Dönemi"] >= 'Murad II']["Sosyal Grup"].value_counts()
-subset = subset[subset.values >=3]
-fig = px.bar(subset, x=subset.index, y=subset.values,
-             color='Sosyal Grup',
-             title = f"Murad II Dönemi ve Sonrası Sosyal Gruplar",
-             labels={'pop':'Sosyal Gruplar', "y": "Count", "x":"Sosyal Gruplar"}, height=400,width=600)
-
-percFig = px.bar(percentage_subset, x=percentage_subset.index, y=percentage_subset.values,
-             color = "percentage",
-             title = f"Sosyal Grupların Olumlu Anılma Yüzdeleri",
-             labels={'pop':'Sosyal Gruplar', "y": "Count", "x":"Sıfat Değerleri"}, height=600,width=1050)
 king_selector.param.watch(selector_callback, "value")
 
-
-
 lay = pn.Column(king_selector, responsive)
-lay2 = pn.Column(percFig)
-lay3 = pn.Row(fig1,fig)
+
+######################################
+dataset = pd.read_csv("nesneler.csv")
+Nitelikler = dataset[['Sultan', 'Nitelik']]
+Eylemler = dataset[['Sultan', 'Eylem']]
+sultan_list2 = Nitelikler["Sultan"].unique().tolist()
+
+def update_objects_plot1(selected_king2):
+    filtered_data = Nitelikler[Nitelikler["Sultan"] == selected_king2]
+    value_counts = filtered_data["Nitelik"].value_counts()
+
+    fig = px.bar(value_counts, x=value_counts.index, y=value_counts.values,
+                 color='Nitelik',
+                 title=f"{selected_king2} Dönemi Öncesi Elden Ele Geçen Nesneler (Niteliklerine Göre)",
+                 labels={'value_counts': 'Nesneler', "y": "Count", "x": "Nesneler"}, height=400)
+
+    return fig
+
+king_selector2 = pn.widgets.Select(options=sultan_list2)
+initial_fig2 = update_objects_plot1(king_selector2.value)
+responsive2 = pn.pane.Plotly(initial_fig2, height=600, width=800)
+
+def selector_callback2(event):
+    selected_king2 = event.new
+    updated_fig = update_objects_plot1(selected_king2)
+    responsive2.object = updated_fig  # Fixed: Use responsive2 instead of responsive
+
+king_selector2.param.watch(selector_callback2, "value")
+lay2 = pn.Column(king_selector2, responsive2)
+
+########################################################
+
+
+def update_objects_plot2(selected_king3):
+    filtered_data = Eylemler[Eylemler["Sultan"] == selected_king3]
+    value_counts = filtered_data["Eylem"].value_counts()
+
+    fig = px.bar(value_counts, x=value_counts.index, y=value_counts.values,
+                 color='Eylem',
+                 title=f"{selected_king3} Dönemi Öncesi Elden Ele Geçen Nesneler (Eylemlere Göre)",
+                 labels={'value_counts': 'Nesneler', "y": "Count", "x": "Nesneler"}, height=400)
+
+    return fig
+
+king_selector3 = pn.widgets.Select(options=sultan_list2)
+initial_fig3 = update_objects_plot1(king_selector3.value)
+responsive3 = pn.pane.Plotly(initial_fig2, height=600, width=800)
+
+def selector_callback3(event):
+    selected_king3 = event.new
+    updated_fig = update_objects_plot1(selected_king3)
+    responsive3.object = updated_fig  # Fixed: Use responsive2 instead of responsive
+
+king_selector3.param.watch(selector_callback3, "value")
+lay3 = pn.Column(king_selector3, responsive3)
+
+subtab = pn.Tabs(
+    ("Eyleme Göre", lay3),
+    ("Niteliğe Göre", lay2)
+)
+
 tabs = pn.Tabs(
-    ("Sıfat Dağılımı Padişaha Göre",lay),
-    ("Sıfatların Olumlu Geçme Yüzdesi", lay2),
-    ("Murad II Öncesi ve Sonrası Sıfatların Karşılaştırması",lay3)
+    ("Tipler", lay),
+    ("Nesneler", subtab)
 )
 
 tabs.servable()
