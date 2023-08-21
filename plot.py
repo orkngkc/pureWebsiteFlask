@@ -5,7 +5,8 @@ import panel as pn
 tipler = pd.read_excel("Tipler Revize.xlsx")
 tipler["Padişah Dönemi"] = tipler["Padişah Dönemi"].str.strip()
 sultan_list = tipler["Padişah Dönemi"].unique().tolist()
-
+sultan_list.insert(1, 'Ertuğrul Gazi')
+sultan_list.pop()
 pn.extension("plotly")
 
 
