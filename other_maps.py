@@ -102,8 +102,8 @@ king_selector.param.watch(update_map, "value")
 
 map_div = pn.pane.HTML(height = 600,width=800)
 
-slider_layout = pn.Row(slider, slider_map_div)
-king_selector_layout = pn.Row(king_selector, map_div)
+slider_layout = pn.Column(slider, slider_map_div)
+king_selector_layout = pn.Column(king_selector, map_div)
 
 maps_layout = pn.Column(slider_layout, king_selector_layout)
 

@@ -1,6 +1,7 @@
-import pandas as pd
 import subprocess
+import pandas as pd
 from flask import Flask, render_template
+
 
 app = Flask(__name__)
 
@@ -25,6 +26,10 @@ def heatmaps():
 def other_maps():
     return render_template("other_maps.html")
 
+@app.route("/plot")
+def plots():
+    return render_template("plot.html")
+
 @app.route("/book")
 def book():
     return render_template("book.html")
@@ -33,7 +38,8 @@ def book():
 if __name__ == "__main__":
     processes = [
         subprocess.Popen(['panel', 'serve', 'heatmaps.py', '--port', '5007', '--allow-websocket-origin=*']),
-        subprocess.Popen(['panel', 'serve', 'other_maps.py', '--port', '5008', '--allow-websocket-origin=*'])
+        subprocess.Popen(['panel', 'serve', 'other_maps.py', '--port', '5008', '--allow-websocket-origin=*']),
+        subprocess.Popen(['panel', 'serve', 'plot.py', '--port', '5010', '--allow-websocket-origin=*'])
     ]
 
     app.run(debug=True)

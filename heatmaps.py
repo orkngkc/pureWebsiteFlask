@@ -43,8 +43,8 @@ slider2.param.watch(update_slider_HeatMap, "value")
 
 slider2_map_div = pn.pane.HTML(height = 600,width=800)
 
-slider2_layout = pn.Row(slider2, slider2_map_div)
-heatmap_layout = pn.Row(king_selector_, heat_map_div)
+slider2_layout = pn.Column(slider2, slider2_map_div)
+heatmap_layout = pn.Column(king_selector_, heat_map_div)
 
 heatmap_layout = pn.Column(slider2_layout, heatmap_layout)
 
