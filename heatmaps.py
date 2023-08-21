@@ -42,13 +42,18 @@ slider2 = pn.widgets.IntSlider(value=0, start=0, end=228)
 slider2.param.watch(update_slider_HeatMap, "value")
 
 slider2_map_div = pn.pane.HTML(height = 600,width=800)
-
-slider2_layout = pn.Column(slider2, slider2_map_div)
-heatmap_layout = pn.Column(king_selector_, heat_map_div)
-
-heatmap_layout = pn.Column(slider2_layout, heatmap_layout)
-
 update_slider_HeatMap(None)
 update_heatmap(None)
+heatmap_tab = pn.Column(king_selector_, heat_map_div)
 
-heatmap_layout.servable()
+# Create a tab for the second heatmap and slider
+slider_tab = pn.Column(slider2, slider2_map_div)
+
+# Create a Tabs widget with the two tabs
+tabs = pn.Tabs(
+    ("King Selector Heatmap", heatmap_tab),
+    ("Slider Heatmap", slider_tab)
+)
+
+
+tabs.servable()

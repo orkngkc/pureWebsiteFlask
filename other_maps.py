@@ -102,12 +102,21 @@ king_selector.param.watch(update_map, "value")
 
 map_div = pn.pane.HTML(height = 600,width=800)
 
-slider_layout = pn.Column(slider, slider_map_div)
-king_selector_layout = pn.Column(king_selector, map_div)
 
-maps_layout = pn.Column(slider_layout, king_selector_layout)
 
 update_slider_map(None)
 update_map(None)
 
-maps_layout.servable()
+heatmap_tab = pn.Column(king_selector,map_div)
+
+# Create a tab for the second heatmap and slider
+slider_tab = pn.Column(slider, slider_map_div)
+
+# Create a Tabs widget with the two tabs
+tabs = pn.Tabs(
+    ("King Selector Cluster", heatmap_tab),
+    ("Slider Cluster", slider_tab)
+)
+
+
+tabs.servable()
