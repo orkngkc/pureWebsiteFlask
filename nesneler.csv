@@ -1,0 +1,676 @@
+Bâb,Sultan,Nesne,Sahibi,Nitelik,Eylem,Kime / Kimden
+2.0,Pre-Osman,At,Süleyman Şah,Binek Hayvan,Sahiplik,
+2.0,Pre-Osman,Toprak (Domaniç ve İrmeni Bili),Sultan Alaeddin,Taşınılmaz / Toprak,İsâr,Ertuğrul Gazi
+3.0,Osman Gazi,Yükceğiz,Osman Gazi,Kamu Esbabı,Emanet,Bilecük Kafiri
+3.0,Osman Gazi,Öküz,Osman Gazi,Binek Hayvan,Sahiplik,
+3.0,Osman Gazi,Peynir,Osman Gazi,Erzak,İsâr,Bilecük Kafiri
+3.0,Osman Gazi,Halı,Osman Gazi,Kâlâ,İsâr,Bilecük Kafiri
+3.0,Osman Gazi,Kilim,Osman Gazi,Kâlâ,İsâr,Bilecük Kafiri
+3.0,Osman Gazi,Kuzu,Osman Gazi,Ağnam,İsâr,Bilecük Kafiri
+4.0,Osman Gazi,Misafirhane,Şeyh Edebalı,Taşınılmaz / Toprak,Sahiplik,
+4.0,Osman Gazi,Taht,Osman Gazi,İktidar,Sahiplik,
+4.0,Osman Gazi,Köycüğez,Osman Gazi,Taşınılmaz / Toprak,İsâr,Derviş Tururoğlı
+4.0,Osman Gazi,Kılıç,Osman Gazi,Seyfiye,İsâr,Derviş Tururoğlı
+4.0,Osman Gazi,Maşraba,Osman Gazi,Kâlâ,İsâr,Derviş Tururoğlı
+5.0,Osman Gazi,Kılıç,Osman Gazi,Seyfiye,Sahiplik,
+5.0,Osman Gazi,Çan,Eynegöl Kafirleri,Dini,Sahiplik,
+6.0,Osman Gazi,Yarak,Sultan Alaeddin,Seyfiye,İsâr,Osman Gazi
+6.0,Osman Gazi,Ev,Osman Gazi,Taşınılmaz / Toprak,İsâr,Gaziler
+8.0,Osman Gazi,Tuhfe,Osman Gazi,Kâlâ,İsâr,Sultan Alaeddin
+8.0,Osman Gazi,Sancak Esbabı,Sultan Alaeddin,İktidar,İsâr,Osman Gazi
+8.0,Osman Gazi,At,Sultan Alaeddin,Binek Hayvan,İsâr,Osman Gazi
+8.0,Osman Gazi,Yarak,Sultan Alaeddin,Seyfiye,İsâr,Osman Gazi
+9.0,Osman Gazi,Tulum,Osman Gazi,Erzak,İsâr,Bilecük Kafiri
+9.0,Osman Gazi,Peynir,Osman Gazi,Erzak,İsâr,Bilecük Kafiri
+9.0,Osman Gazi,Kaymak,Osman Gazi,Erzak,İsâr,Bilecük Kafiri
+9.0,Osman Gazi,Halı,Osman Gazi,Kâlâ,İsâr,Bilecük Kafiri
+9.0,Osman Gazi,Kilim,Osman Gazi,Kâlâ,İsâr,Bilecük Kafiri
+9.0,Osman Gazi,Bardak,Bilecük Kafirleri,Kâlâ,Sahiplik,
+9.0,Osman Gazi,Şeker,Osman Gazi,Erzak,İsâr,Gaziler
+9.0,Osman Gazi,Şarap,Osman Gazi,Erzak,İsâr,Gaziler
+10.0,Osman Gazi,At,Osman Gazi,Binek Hayvan,Sahiplik,
+10.0,Osman Gazi,Altın,Gaziler,Kâlâ,Ganimet,Hırmenkaya Kafirleri
+10.0,Osman Gazi,Gümüş,Gaziler,Kâlâ,Ganimet,Hırmenkaya Kafirleri
+10.0,Osman Gazi,At,Gaziler,Binek Hayvan,Ganimet,Hırmenkaya Kafirleri
+11.0,Osman Gazi,Yarak,Köse Mihal,Seyfiye,Sahiplik,
+11.0,Osman Gazi,Saçu,Tekfurlar,Kâlâ,İsâr,Köse Mihal
+11.0,Osman Gazi,Halı,Osman Gazi,Kâlâ,İsâr,Köse Mihal
+11.0,Osman Gazi,Kilim,Osman Gazi,Kâlâ,İsâr,Köse Mihal
+11.0,Osman Gazi,Koyun,Osman Gazi,Ağnam,İsâr,Köse Mihal
+12.0,Osman Gazi,Koyun,Osman Gazi,Ağnam,İsâr,Bilecük Tekfuru
+12.0,Osman Gazi,Saçu,Osman Gazi,Kâlâ,İsâr,Köse Mihal
+12.0,Osman Gazi,Altın,Bilecük Tekfuru,Kâlâ,İsâr,Osman Gazi
+12.0,Osman Gazi,Gümüş,Bilecük Tekfuru,Kâlâ,İsâr,Osman Gazi
+12.0,Osman Gazi,Öküz,Osman Gazi,Binek Hayvan,Sahiplik,
+12.0,Osman Gazi,Kılıç,Gaziler,Seyfiye,Sahiplik,
+12.0,Osman Gazi,Baş Bezi,Gaziler,Kıyafet,Sahiplik,
+13.0,Osman Gazi,Tekye,Lülüfer Hatun,Taşınılmaz / Toprak,Sahiplik,
+13.0,Osman Gazi,Köprü,Lülüfer Hatun,Taşınılmaz / Toprak,Sahiplik,
+14.0,Osman Gazi,Ev,Osman Gazi,Taşınılmaz / Toprak,İsâr,Germiyanlılar
+14.0,Osman Gazi,Kılıç,Osman Gazi,Seyfiye,Sahiplik,
+14.0,Osman Gazi,Sancak,Osman Gazi,İktidar,Sahiplik,
+15.0,Osman Gazi,Bac,Osman Gazi,Resm,Sahiplik,
+16.0,Osman Gazi,Toprak (Karacahisar),Osman Gazi,Taşınılmaz / Toprak,İsâr,Orhan Gazi
+16.0,Osman Gazi,Toprak (Yarhisar),Osman Gazi,Taşınılmaz / Toprak,İsâr,Hasan Alp
+16.0,Osman Gazi,Toprak (Eynegöl) ,Osman Gazi,Taşınılmaz / Toprak,İsâr,Turkut Alp
+16.0,Osman Gazi,Toprak (Bilecük Timarı) ,Osman Gazi,Taşınılmaz / Toprak,İsâr,Şeyh Edebalı
+16.0,Osman Gazi,Toprak (İznik Timarı),Osman Gazi,Taşınılmaz / Toprak,İsâr,Timar Erleri
+20.0,Osman Gazi,At,Köse Mihal,Binek Hayvan,İsâr,Osman Gazi
+20.0,Osman Gazi,Kılıç,Köse Mihal,Seyfiye,İsâr,Osman Gazi
+20.0,Osman Gazi,Peşkeş,Köse Mihal,Kâlâ,İsâr,Osman Gazi
+20.0,Osman Gazi,Hilat,Osman Gazi,İktidar,İsâr,Köse Mihal
+21.0,Osman Gazi,At,Orhan Gazi,Binek Hayvan,Sahiplik,
+22.0,Osman Gazi,At,Orhan Gazi,Binek Hayvan,Sahiplik,
+22.0,Osman Gazi,Kılıç,Orhan Gazi,Seyfiye,Sahiplik,
+22.0,Osman Gazi,At,Gaziler,Binek Hayvan,Sahiplik,
+23.0,Osman Gazi,Filori,Baras Tekfur,Kâlâ,Harac,Osman Gazi
+23.0,Osman Gazi,İp,Baras Tekfur,Kâlâ,Sahiplik,
+23.0,Osman Gazi,Palas,Baras Tekfur,Kâlâ,Sahiplik,
+23.0,Osman Gazi,Hazine,Baras Tekfur,Kâlâ,Harac,Osman Gazi
+26.0,Osman Gazi,Libas,Tekfurun Kızı,Kâlâ,Sahiplik,
+26.0,Osman Gazi,Harir,Tekfurun Kızı,Kâlâ,Sahiplik,
+26.0,Osman Gazi,Mektub,Tekfurun Kızı,İletişim,Gönderme,Gazi Rahman
+26.0,Osman Gazi,İp,Tekfurun Kızı,Kâlâ,Sahiplik,
+26.0,Osman Gazi,Ok,Gaziler,Seyfiye,Sahiplik,
+29.0,Orhan Gazi,Sırtak Tegele,Osman Gazi,Kâlâ,Miras,
+29.0,Orhan Gazi,Yancı,Osman Gazi,Kâlâ,Miras,
+29.0,Orhan Gazi,Tuzla,Osman Gazi,Taşınılmaz / Toprak,Miras,
+29.0,Orhan Gazi,Kaşuklık,Osman Gazi,Kâlâ,Miras,
+29.0,Orhan Gazi,Sokman ,Osman Gazi,Kâlâ,Miras,
+29.0,Orhan Gazi,At,Osman Gazi,Binek Hayvan,Miras,
+29.0,Orhan Gazi,Koyun,Osman Gazi,Ağnam,Miras,
+29.0,Orhan Gazi,Eyer,Osman Gazi,Kâlâ,Miras,
+29.0,Orhan Gazi,Depingi,Osman Gazi,Kâlâ,Miras,
+29.0,Orhan Gazi,Tekye,Ahi Hasan,Taşınılmaz / Toprak,Sahiplik,
+29.0,Orhan Gazi,Koyun,Osman Gazi,Ağnam,Miras,Orhan Gazi
+29.0,Orhan Gazi,Toprak (Fodura Köyü),Orhan Gazi,Taşınılmaz / Toprak,İsâr,Ala'addin Paşa
+29.0,Orhan Gazi,Tekye,Alaaddin Paşa,Taşınılmaz / Toprak,Sahiplik,
+29.0,Orhan Gazi,Mescid,Alaaddin Paşa,Taşınılmaz / Toprak,Sahiplik,
+30.0,Orhan Gazi,Toprak (Kandırı Sancağı),Orhan Gazi,Taşınılmaz / Toprak,İsâr,Süleyman Paşa
+30.0,Orhan Gazi,Toprak (İnönü Sancağı),Orhan Gazi,Taşınılmaz / Toprak,İsâr,Murad I
+30.0,Orhan Gazi,Toprak (Yalakovası) ,Yalakonya,Taşınılmaz / Toprak,Sahiplik,
+30.0,Orhan Gazi,Toprak (Deredeki Hisar),Yalakonya,Taşınılmaz / Toprak,Sahiplik,
+30.0,Orhan Gazi,Toprak (Koyunhisar),Kalayun,Taşınılmaz / Toprak,Sahiplik,
+30.0,Orhan Gazi,Ok,Gaziler,Seyfiye,Sahiplik,
+30.0,Orhan Gazi,Toprak (İznikmid),Orhan Gazi,Taşınılmaz / Toprak,İsâr,Karamürsel
+30.0,Orhan Gazi,Toprak (Ermen Bazarı),Orhan Gazi,Taşınılmaz / Toprak,İsâr,Yahşılu
+30.0,Orhan Gazi,Toprak (Kandırı Vilayeti) ,Orhan Gazi,Taşınılmaz / Toprak,İsâr,Akbaş
+30.0,Orhan Gazi,Tekye,Fazlullah Kadı,Taşınılmaz / Toprak,Sahiplik,
+31.0,Orhan Gazi,Kızıl Börk,Leşker,Seyfiye,Sahiplik,
+31.0,Orhan Gazi,Ak Börk,Leşker,Seyfiye,Sahiplik,
+31.0,Orhan Gazi,Burma Dülbend,Divan Beyleri,İktidar,Sahiplik,
+31.0,Orhan Gazi,Börk,Divan Beyleri,Seyfiye,Sahiplik,
+31.0,Orhan Gazi,Şevgüle,Divan Beyleri,Kâlâ,Sahiplik,
+31.0,Orhan Gazi,Tarak,Divan Beyleri,Kâlâ,Sahiplik,
+31.0,Orhan Gazi,Merkep,Divan Beyleri,Binek Hayvan,Sahiplik,
+31.0,Orhan Gazi,Eşek,Divan Beyleri,Binek Hayvan,Sahiplik,
+32.0,Orhan Gazi,Gemi,İznik Tekfuru,Deniz Taşıtı,Sahiplik,
+32.0,Orhan Gazi,Ev,İznik Tekfuru,Taşınılmaz / Toprak,Ganimet,Orhan Gazi
+33.0,Orhan Gazi,İmaret,Orhan Gazi,Taşınılmaz / Toprak,İsâr,Gaziler
+33.0,Orhan Gazi,Taam,Orhan Gazi,Erzak,İsâr,Gaziler
+33.0,Orhan Gazi,Medrese,Orhan Gazi,Taşınılmaz / Toprak,İsâr,Gaziler
+33.0,Orhan Gazi,Taht,Orhan Gazi,İktidar,Sahiplik,
+34.0,Orhan Gazi,Toprak (İznikmid),Orhan Gazi,Taşınılmaz / Toprak,İsâr,Süleyman Paşa
+34.0,Orhan Gazi,Toprak (Bursa),Orhan Gazi,Taşınılmaz / Toprak,İsâr,Murad I
+34.0,Orhan Gazi,Toprak (Karacahisar),Orhan Gazi,Taşınılmaz / Toprak,İsâr,Gündüz
+35.0,Orhan Gazi,Peşkeş,Klasemtorya,Kâlâ,İsâr,Orhan Gazi
+36.0,Orhan Gazi,Ok,Gaziler,Seyfiye,Sahiplik,
+36.0,Orhan Gazi,Defter,Orhan Gazi,Dini,Sahiplik,
+36.0,Orhan Gazi,At,Gaziler,Binek Hayvan,Sahiplik,
+36.0,Orhan Gazi,Kemend,Gaziler,Binek Aksesuarı,Sahiplik,
+36.0,Orhan Gazi,Defter,Karasi Tekfuru,Dini,Sahiplik,
+37.0,Orhan Gazi,Sikke,Orhan Gazi,İktidar,Sahiplik,
+37.0,Orhan Gazi,Toprak (Karasi),Orhan Gazi,Taşınılmaz / Toprak,İsâr,Süleyman Paşa
+38.0,Orhan Gazi,İmaret,Orhan Gazi,Taşınılmaz / Toprak,Sahiplik,
+38.0,Orhan Gazi,Kavak Ağacı,Geyüklü Derviş,Taşınılmaz / Toprak,İsâr,Orhan Gazi
+38.0,Orhan Gazi,Tepecik Yer,Orhan Gazi,Taşınılmaz / Toprak,İsâr,Geyüklü Derviş
+38.0,Orhan Gazi,Tekye,Orhan Gazi,Taşınılmaz / Toprak,İsâr,Geyüklü Derviş
+38.0,Orhan Gazi,Cami,Orhan Gazi,Taşınılmaz / Toprak,İsâr,Geyüklü Derviş
+38.0,Orhan Gazi,Sal,Gazi Fazıl,Deniz Taşıtı,Sahiplik,
+38.0,Orhan Gazi,Hilat,Süleyman Şah,İktidar,İsâr,Virança Kafiri
+38.0,Orhan Gazi,Gemi,Virança Tekfuru,Deniz Taşıtı,Ganimet,Orhan Gazi
+38.0,Orhan Gazi,At,Ece Bey,Binek Hayvan,Sahiplik,
+38.0,Orhan Gazi,Gemi,Virança Tekfuru,Deniz Taşıtı,Ganimet,Orhan Gazi
+38.0,Orhan Gazi,Gemi,Aydıncık Halkı,Deniz Taşıtı,Sahiplik,
+38.0,Orhan Gazi,Ev,Virança Tekfuru,Taşınılmaz / Toprak,Ganimet,Gaziler
+38.0,Orhan Gazi,Gemi,Gelibolu Kafirleri,Deniz Taşıtı,Sahiplik,
+38.0,Orhan Gazi,İbrik,Gaziler,Kâlâ,Sahiplik,
+38.0,Orhan Gazi,Gümüş,Gaziler,Kâlâ,Sahiplik,
+38.0,Orhan Gazi,Altın,Gaziler,Kâlâ,Sahiplik,
+40.0,Orhan Gazi,At,Konurhisar Tekfuru,Binek Hayvan,Sahiplik,
+40.0,Orhan Gazi,Kılıç,Gaziler,Seyfiye,Sahiplik,
+40.0,Orhan Gazi,Toprak (Gelibolu),Orhan Gazi,Taşınılmaz / Toprak,İsâr,Gazi Fazıl
+40.0,Orhan Gazi,Hazine,Kafirler,Kâlâ,Ganimet,Orhan Gazi
+41.0,Orhan Gazi,Toprak (Konur),Hacı İlbeg,Taşınılmaz / Toprak,İsâr,Orhan Gazi
+41.0,Orhan Gazi,Ok,Süleyman Paşa,Seyfiye,Sahiplik,
+41.0,Orhan Gazi,At,Süleyman Paşa,Binek Hayvan,Sahiplik,
+42.0,Orhan Gazi,Ok,Gaziler,Seyfiye,Sahiplik,
+42.0,Orhan Gazi,Peşkeş,Misini Tekfuru,Kâlâ,İsâr,Orhan Gazi
+43.0,Murad I,At,Gaziler,Binek Hayvan,Sahiplik,
+44.0,Murad I,Kayık,Edrene Takfuru,Deniz Taşıtı,Sahiplik,
+45.0,Murad I,Taht,Murad I,İktidar,Sahiplik,
+45.0,Murad I,Esir,Gaziler,İş Gücü,Sahiplik,
+45.0,Murad I,Akça,Murad I,Resm,Sahiplik,
+45.0,Murad I,Ak Börk,Yeniçeri,Seyfiye,Sahiplik,
+47.0,Murad I,Gemi,Murad I,Deniz Taşıtı,Sahiplik,
+47.0,Murad I,Gemi,Aydıncık Halkı,Deniz Taşıtı,Sahiplik,
+47.0,Murad I,Esir,Gaziler,İş Gücü,Ganimet,Kafirler
+47.0,Murad I,Ev,Gaziler,Taşınılmaz / Toprak,Ganimet,Kafirler
+48.0,Murad I,At,Kafirler,Binek Hayvan,Sahiplik,
+48.0,Murad I,İmaret,Murad I,Taşınılmaz / Toprak,Sahiplik,
+48.0,Murad I,Zaviye,Murad I,Taşınılmaz / Toprak,İsâr,Postinpuş
+48.0,Murad I,Mescid,Murad I,Taşınılmaz / Toprak,Sahiplik,
+48.0,Murad I,Cami,Murad I,Taşınılmaz / Toprak,Sahiplik,
+48.0,Murad I,Medrese,Murad I,Taşınılmaz / Toprak,Sahiplik,
+49.0,Murad I,Peşkeş,İshak Faki,Kâlâ,İsâr,Murad I
+49.0,Murad I,Altın,İshak Faki,Kâlâ,Sahiplik,
+49.0,Murad I,Gümüş,İshak Faki,Kâlâ,Sahiplik,
+49.0,Murad I,Ak Bez,İshak Faki,Kâlâ,İsâr,Murad I
+49.0,Murad I,Hilat,İshak Faki,İktidar,Sahiplik,
+49.0,Murad I,Sırtak Tegele,İshak Faki,Kâlâ,İsâr,Murad I
+49.0,Murad I,Kızıl İvledi Sincef,İshak Faki,Kâlâ,İsâr,Murad I
+49.0,Murad I,Toprak (Kütahya),Germiyanoğlu,Taşınılmaz / Toprak,Çeyiz,Sultan Hatun
+49.0,Murad I,Toprak (Simav),Germiyanoğlu,Taşınılmaz / Toprak,Çeyiz,Sultan Hatun
+49.0,Murad I,Toprak (Eğrigöz),Germiyanoğlu,Taşınılmaz / Toprak,Çeyiz,Sultan Hatun
+49.0,Murad I,Toprak (Tavşanlı),Germiyanoğlu,Taşınılmaz / Toprak,Çeyiz,Sultan Hatun
+50.0,Murad I,At,Etrafın Beyleri,Binek Hayvan,İsâr,Murad I
+50.0,Murad I,Katır,Etrafın Beyleri,Binek Hayvan,İsâr,Murad I
+50.0,Murad I,Deve,Etrafın Beyleri,Binek Hayvan,İsâr,Murad I
+50.0,Murad I,Tuhfe ,Mısır Sultanı,Kâlâ,İsâr,Murad I
+50.0,Murad I,Cariye,Gazi Evrenos,İş Gücü,İsâr,Murad I
+50.0,Murad I,Gümüş Tepsi,Gazi Evrenos,Kâlâ,İsâr,Murad I
+50.0,Murad I,Filori,Gazi Evrenos,Kâlâ,İsâr,Murad I
+50.0,Murad I,Altın Tepsi,Gazi Evrenos,Kâlâ,İsâr,Murad I
+50.0,Murad I,Gümüş Maşraba,Gazi Evrenos,Kâlâ,İsâr,Murad I
+50.0,Murad I,İbrik,Gazi Evrenos,Kâlâ,İsâr,Murad I
+50.0,Murad I,Altın,Murad I,Kâlâ,İsâr,Elçi
+50.0,Murad I,Gümüş,Murad I,Kâlâ,İsâr,Elçi
+50.0,Murad I,At,Murad I,Binek Hayvan,İsâr,Gazi Evrenos
+50.0,Murad I,Filori,Murad I,Kâlâ,İsâr,Gazi Evrenos
+50.0,Murad I,Koyun,Murad I,Ağnam,Sahiplik,
+50.0,Murad I,Akça,Murad I,Kâlâ,Sahiplik,
+50.0,Murad I,Öküz,Murad I,Ağnam,Sahiplik,
+51.0,Murad I,At,Gelin,Binek Hayvan,Sahiplik,
+52.0,Murad I,Mektub,Hamidoğlu,İletişim,Gönderme,Murad I
+53.0,Murad I,Altın Tepsi,Murad I,Kâlâ,Ganimet,Polanya Kafirleri
+53.0,Murad I,Gümüş Tepsi,Murad I,Kâlâ,Ganimet,Polanya Kafirleri
+53.0,Murad I,Filori,Murad I,Kâlâ,Ganimet,Polanya Kafirleri
+53.0,Murad I,Akça,Murad I,Kâlâ,Ganimet,Polanya Kafirleri
+53.0,Murad I,Altın Tas,Murad I,Kâlâ,Ganimet,Polanya Kafirleri
+53.0,Murad I,Gümüş Tas,Murad I,Kâlâ,Ganimet,Polanya Kafirleri
+53.0,Murad I,Üsküf,Gaziler,Seyfiye,Ganimet,Polanya Kafirleri
+55.0,Murad I,Kılıç,Gaziler,Seyfiye,Sahiplik,
+55.0,Murad I,Nişter,Gaziler,Seyfiye,Sahiplik,
+56.0,Murad I,Armağan,Laz Kralı,Kâlâ,İsâr,Murad I
+56.0,Murad I,Yarak,Murad I,Seyfiye,Sahiplik,
+56.0,Murad I,Yarak,Laz Kralı,Seyfiye,Sahiplik,
+56.0,Murad I,Toprak (Kütahya),Bayezid I,Taşınılmaz / Toprak,Sahiplik,
+56.0,Murad I,Toprak (Hamidili),Bayezid I,Taşınılmaz / Toprak,Sahiplik,
+56.0,Murad I,Toprak (Karasi),Yakup Çelebi,Taşınılmaz / Toprak,Sahiplik,
+56.0,Murad I,Sancak,Murad I,İktidar,Sahiplik,
+56.0,Murad I,Kös,Gaziler,Seyfiye,Sahiplik,
+56.0,Murad I,At,Gaziler,Binek Hayvan,Sahiplik,
+56.0,Murad I,Şapka,Miloş Küpile,Kıyafet,Sahiplik,
+56.0,Murad I,Taht,Bayezid I,İktidar,Sahiplik,
+56.0,Murad I,Cülus,Bayezid I,İktidar,Sahiplik,
+57.0,Bayezid I,Cülus,Bayezid I,İktidar,Sahiplik,
+57.0,Bayezid I,Esir,Bayezid I,İş Gücü,Sahiplik,
+57.0,Bayezid I,Meblağ,Bayezid I,Kâlâ,Sahiplik,
+57.0,Bayezid I,Cami,Bayezid I,Taşınılmaz / Toprak,Sahiplik,
+57.0,Bayezid I,Medrese,Bayezid I,Taşınılmaz / Toprak,Sahiplik,
+57.0,Bayezid I,Bimarhane,Bayezid I,Taşınılmaz / Toprak,Sahiplik,
+57.0,Bayezid I,Zaviye,Bayezid I,Taşınılmaz / Toprak,Sahiplik,
+58.0,Bayezid I,Sikke,Bayezid I,İktidar,Sahiplik,
+58.0,Bayezid I,Ayasulug,Bayezid I,Taşınılmaz / Toprak,İsâr,Kullar
+59.0,Bayezid I,Mektub,Casus,İletişim,Sahiplik,
+59.0,Bayezid I,Mancılık,Bayezid I,Seyfiye,Sahiplik,
+59.0,Bayezid I,Top,Mehmed II,Seyfiye,Sahiplik,
+59.0,Bayezid I,Mancılık,Bayezid I,Seyfiye,Sahiplik,
+59.0,Bayezid I,Esir,Gaziler,İş Gücü,Ganimet,Kafirler
+60.0,Bayezid I,Balık,İstanbul Tekfuru,Erzak,İsâr,Bayezid I
+60.0,Bayezid I,Altın,İstanbul Tekfuru,Kâlâ,İsâr,Bayezid I
+60.0,Bayezid I,Gümüş,İstanbul Tekfuru,Kâlâ,İsâr,Bayezid I
+60.0,Bayezid I,Filori,İstanbul Tekfuru,Kâlâ,Harac,Bayezid I
+61.0,Bayezid I,İmaret,Bayezid I,Taşınılmaz / Toprak,Sahiplik,
+61.0,Bayezid I,İmaret,Bayezid I,Taşınılmaz / Toprak,Sahiplik,
+62.0,Bayezid I,Armağan,Laz Despotu,Kâlâ,İsâr,Bayezid I
+62.0,Bayezid I,Taht,Bayezid I,İktidar,Sahiplik,
+62.0,Bayezid I,Mektub,Laz Despotu,İletişim,Gönderme,Bayezid I
+62.0,Bayezid I,Şarap,Bayezid I,Kâlâ,Sahiplik,
+62.0,Bayezid I,Kebap,Bayezid I,Erzak,Sahiplik,
+62.0,Bayezid I,Kadeh,Bayezid I,Kâlâ,Sahiplik,
+62.0,Bayezid I,Akça,Gaziler,Kâlâ,Sahiplik,
+62.0,Bayezid I,Düşelik,Kadılar,Resm,Sahiplik,
+62.0,Bayezid I,Akça ,Kadılar,Resm,Sahiplik,
+63.0,Bayezid I,Arpa,Konya Halkı,Erzak,Sahiplik,
+63.0,Bayezid I,Buğday,Konya Halkı,Erzak,Sahiplik,
+63.0,Bayezid I,Saman,Konya Halkı,Erzak,Sahiplik,
+63.0,Bayezid I,At,Bayezid I,Binek Hayvan,Sahiplik,
+65.0,Bayezid I,Toprak (Sivaz),Bayezid I,Taşınılmaz / Toprak,İsâr,Emir Süleyman
+66.0,Bayezid I,Tuzla,Surhan Göçerleri,Taşınılmaz / Toprak,Sahiplik,
+66.0,Bayezid I,Kanun,Bayezid I,İktidar,Sahiplik,
+66.0,Bayezid I,Defter,Bayezid I,Dini,Sahiplik,
+66.0,Bayezid I,Öküz,Bayezid I,Binek Hayvan,Sahiplik,
+66.0,Bayezid I,Katır,Bayezid I,Binek Hayvan,Sahiplik,
+66.0,Bayezid I,Altın,Bayezid I,Kâlâ,Sahiplik,
+66.0,Bayezid I,Gümüş,Bayezid I,Kâlâ,Sahiplik,
+66.0,Bayezid I,Bakır,Bayezid I,Kâlâ,Sahiplik,
+66.0,Bayezid I,Yarak,Bayezid I,Seyfiye,Sahiplik,
+66.0,Bayezid I,Mektub,Timur,İletişim,Gönderme,Bayezid I
+66.0,Bayezid I,Armağan,Timur,Kâlâ,İsâr,Bayezid I
+66.0,Bayezid I,Cevabname,Bayezid I,İletişim,Gönderme,Timur
+66.0,Bayezid I,Yarak,Bayezid I,Seyfiye,Sahiplik,
+66.0,Bayezid I,Kös,Bayezid I,Seyfiye,Sahiplik,
+66.0,Bayezid I,At,Bayezid I,Binek Hayvan,Sahiplik,
+66.0,Bayezid I,At,Timur,Binek Hayvan,Sahiplik,
+66.0,Bayezid I,Çadır,Timur,Kâlâ,Sahiplik,
+66.0,Bayezid I,Halı,Timur,Kâlâ,Sahiplik,
+66.0,Bayezid I,At,Timur,Binek Hayvan,Sahiplik,
+67.0,Fetret,At,Mehmed I,Binek Hayvan,İsâr,Emir Süleyman
+67.0,Fetret,Cariye,Emir Süleyman,İş Gücü,İsâr,Mehmed I
+67.0,Fetret,Kavak Ağacı,Emir Süleyman,Taşınılmaz / Toprak,Sahiplik,
+67.0,Fetret,Şarap,Ali Paşa,Erzak,Sahiplik,
+67.0,Fetret,Saz,Emir Süleyman,Müzik Aleti,Sahiplik,
+68.0,Fetret,Taht,Musa,İktidar,Sahiplik,
+68.0,Fetret,Taht,Mehmed I,İktidar,Sahiplik,
+69.0,Fetret,Gemi,İstanbul Tekfuru,Deniz Taşıtı,Sahiplik,
+69.0,Fetret,At,Musa,Binek Hayvan,Sahiplik,
+69.0,Fetret,Çadır,Mehmed I,Kâlâ,Sahiplik,
+69.0,Fetret,Akça,Mehmed I,Kâlâ,Sahiplik,
+69.0,Fetret,Ulufe,Mehmed I,İktidar,Sahiplik,
+70.0,Fetret,Yarak,Karamanoğlu,Seyfiye,Sahiplik,
+72.0,Mehmed I,Azık,Germiyanoğlu,Erzak,Sahiplik,
+73.0,Mehmed I,Hilat,Mehmed I,İktidar,İsâr,Karamanoğlu
+73.0,Mehmed I,Sancak,Mehmed I,İktidar,İsâr,Karamanoğlu
+73.0,Mehmed I,At,Mehmed I,Binek Hayvan,İsâr,Karamanoğlu
+73.0,Mehmed I,Katır,Mehmed I,Binek Hayvan,İsâr,Karamanoğlu
+73.0,Mehmed I,Deve,Mehmed I,Binek Hayvan,İsâr,Karamanoğlu
+73.0,Mehmed I,At,Karamanoğlu,Binek Hayvan,Sahiplik,
+74.0,Mehmed I,Harac,Eflak Beyi,Kâlâ,Harac,Mehmed I
+74.0,Mehmed I,Bakır Küre,Karamanoğlu,Kâlâ,Sahiplik,
+75.0,Mehmed I,Hilat,Mehmed I,İktidar,İsâr,
+75.0,Mehmed I,Nimet,Mehmed I,Kâlâ,İsâr,
+77.0,Mehmed I,Gemi,Simavna Kadısı Oğlu,Deniz Taşıtı,Sahiplik,
+77.0,Mehmed I,Taht,Simavna Kadısı Oğlu,İktidar,Sahiplik,
+77.0,Mehmed I,Sancak,Simavna Kadısı Oğlu,İktidar,Sahiplik,
+78.0,Mehmed I,Ok,Danişmend,Seyfiye,Sahiplik,
+79.0,Mehmed I,Ev,Mehmed I,Taşınılmaz / Toprak,İsâr,Müslümanlar
+79.0,Mehmed I,İmaret,Mehmed I,Taşınılmaz / Toprak,İsâr,Müslümanlar
+80.0,Mehmed I,Yastık,Mehmed I,Kâlâ,Sahiplik,
+80.0,Mehmed I,Döşek,Mehmed I,Kâlâ,Sahiplik,
+80.0,Mehmed I,Ot,Mehmed I,Tıbbi,Sahiplik,
+80.0,Mehmed I,İlaç,Mehmed I,Tıbbi,Sahiplik,
+81.0,Murad II,Taht,Murad II,İktidar,Sahiplik,
+82.0,Murad II,Akça,Murad II,İktidar,İsâr,Yeniçeri
+82.0,Murad II,Gemi,Murad II,Deniz Taşıtı,Sahiplik,
+84.0,Murad II,Mektub,Hacı İvaz Paşa,İletişim,Gönderme,Düzmece Mustafa
+84.0,Murad II,At,Düzmece Mustafa,Binek Hayvan,Sahiplik,
+84.0,Murad II,Çadır,Hacı İvaz Paşa,Kâlâ,Sahiplik,
+85.0,Murad II,Filori,Düzmece Mustafa,Kâlâ,Harac,Biga Kadısı
+85.0,Murad II,Gemi,Düzmece Mustafa,Deniz Taşıtı,Sahiplik,
+86.0,Murad II,Gemi,Kafirler,Deniz Taşıtı,Sahiplik,
+86.0,Murad II,Filori,Murad II,Kâlâ,Harac,Kafirler
+86.0,Murad II,Çadır,İbrahim Paşa,Kâlâ,Sahiplik,
+86.0,Murad II,Kayık,Murad II,Deniz Taşıtı,Sahiplik,
+86.0,Murad II,At,Düzmece Mustafa,Binek Hayvan,Sahiplik,
+87.0,Murad II,Taht,Murad II,İktidar,Sahiplik,
+88.0,Murad II,Akça,"Bursa'nın Azizeri",Kâlâ,Harac,Düzmece Mustafa
+88.0,Murad II,Kumaş,"Bursa'nın Azizeri",Kâlâ,Harac,Düzmece Mustafa
+89.0,Murad II,At,Düzmece Mustafa,Binek Hayvan,Sahiplik,
+91.0,Murad II,Çomak,Murad II,Seyfiye,Sahiplik,
+91.0,Murad II,Bakır Küre,İsfendiyar,Kâlâ,Ganimet,Murad II
+91.0,Murad II,Kızıl Filori,İsfendiyar,Kâlâ,İsâr,Paşalar
+92.0,Murad II,Hilat,Murad II,İktidar,İsâr,İsfendiyar
+92.0,Murad II,Burma Dülbend,Murad II,İktidar,İsâr,İsfendiyar
+92.0,Murad II,Harac,İsfendiyar,Kâlâ,Harac,Murad II
+93.0,Murad II,Ulufe,Murad II,İktidar,Sahiplik,
+95.0,Murad II,Mektub,Oruç Bey,İletişim,Gönderme,Hamza Bey
+95.0,Murad II,Çadır,Yahşi Bey,Kâlâ,Sahiplik,
+96.0,Murad II,Odun,Menteşeoğulları,Kâlâ,Sahiplik,
+96.0,Murad II,Otluk,Menteşeoğulları,Kâlâ,Sahiplik,
+96.0,Murad II,Döşek,Menteşeoğulları,Kâlâ,Sahiplik,
+96.0,Murad II,Çürük Otluk,Menteşeoğulları,Kâlâ,Sahiplik,
+96.0,Murad II,At,Ahmed bey,Binek Hayvan,Sahiplik,
+97.0,Murad II,Top,Murad II,Seyfiye,Sahiplik,
+97.0,Murad II,Sandık,Murad II,Kâlâ,Gönderme,Karamanoğlu
+97.0,Murad II,Taht,Ali Bey,İktidar,Sahiplik,
+97.0,Murad II,Sancak,Murad II,İktidar,İsâr,İbrahim
+97.0,Murad II,Kılıç,Murad II,Seyfiye,İsâr,İbrahim
+97.0,Murad II,Okluk,İbrahim,Seyfiye,İsâr,Murad II
+98.0,Murad II,Armağan,Yörgüç,Kâlâ,İsâr,Kızılkocaoğlanları
+98.0,Murad II,Mektub,Yörgüç,İletişim,Gönderme,Kızılkocaoğlanları
+98.0,Murad II,Kılıç,Türkmenler,Seyfiye,Sahiplik,
+98.0,Murad II,Nimet,Türkmenler,Erzak,İsâr,Yörgüç
+98.0,Murad II,Şarap,Türkmenler,Erzak,İsâr,Yörgüç
+98.0,Murad II,Ev,Türkmenler,Taşınılmaz / Toprak,Ganimet,Murad II
+98.0,Murad II,Koyun,Türkmenler,Ağnam,Ganimet,Murad II
+98.0,Murad II,Akça,Türkmenler,Kâlâ,Ganimet,Murad II
+99.0,Murad II,Azık,Haydar Bey,Erzak,Sahiplik,
+99.0,Murad II,Hazine,Haydar Bey,Kâlâ,Sahiplik,
+99.0,Murad II,Toprak (Timar),Murad II,Taşınılmaz / Toprak,İsâr,Haydar Bey
+99.0,Murad II,Taht,Murad II,İktidar,Sahiplik,
+100.0,Murad II,İp,Alparslanoğlu,Kâlâ,Sahiplik,
+100.0,Murad II,At,Alparslanoğlu,Binek Hayvan,Sahiplik,
+100.0,Murad II,Toprak (Timar),Murad II,Taşınılmaz / Toprak,İsâr,Alparslanoğlu
+101.0,Murad II,Hazine,Murad II,Kâlâ,Sahiplik,
+101.0,Murad II,Meblağ,Murad II,Kâlâ,Sahiplik,
+101.0,Murad II,Bina,Murad II,Taşınılmaz / Toprak,Sahiplik,
+101.0,Murad II,Köprü,Murad II,Taşınılmaz / Toprak,Sahiplik,
+101.0,Murad II,Cami,Murad II,Taşınılmaz / Toprak,Sahiplik,
+101.0,Murad II,İmaret,Murad II,Taşınılmaz / Toprak,Sahiplik,
+101.0,Murad II,Hamam,Murad II,Taşınılmaz / Toprak,Sahiplik,
+101.0,Murad II,Bazar,Murad II,Taşınılmaz / Toprak,Sahiplik,
+101.0,Murad II,Nimet,Murad II,Erzak,İsâr,Misafirler
+101.0,Murad II,Filori,Murad II,Kâlâ,İsâr,Misafirler
+101.0,Murad II,Akça,Murad II,Kâlâ,İsâr,Misafirler
+101.0,Murad II,Taam,Murad II,Erzak,İsâr,Misafirler
+101.0,Murad II,Hilat,Murad II,İktidar,İsâr,Mimar
+101.0,Murad II,Toprak (Çiftlik),Murad II,Taşınılmaz / Toprak,İsâr,Mimar
+101.0,Murad II,Avarız,Murad II,Resm,Sahiplik,
+102.0,Murad II,Meblağ,Germiyanoğlu,Kâlâ,İsâr,Murad II
+102.0,Murad II,Hilat,Murad II,İktidar,İsâr,Germiyanoğlu
+103.0,Murad II,Toprak (Uçlar),Murad II,Taşınılmaz / Toprak,İsâr,Bahadır Erler
+103.0,Murad II,Toprak (Laz Ucu),Murad II,Taşınılmaz / Toprak,İsâr,İshka Bey
+103.0,Murad II,Cariye,Vılkoğlu,İş Gücü,İsâr,Murad II
+103.0,Murad II,Meblağ,Vılkoğlu,Kâlâ,İsâr,Murad II
+103.0,Murad II,Harac,Laz Vilayeti,Kâlâ,Harac,Murad II
+104.0,Murad II,Yarak,Murad II,Seyfiye,Sahiplik,
+104.0,Murad II,Top,Murad II,Seyfiye,Sahiplik,
+104.0,Murad II,Mancılık,Murad II,Seyfiye,Sahiplik,
+104.0,Murad II,Gemi,Murad II,Deniz Taşıtı,Sahiplik,
+104.0,Murad II,Esir,Gaziler,İş Gücü,Ganimet,Selanik Kafirleri
+105.0,Murad II,Top,Vidin Sinan,Seyfiye,Sahiplik,
+105.0,Murad II,At,Vidin Sinan,Binek Hayvan,Sahiplik,
+105.0,Murad II,Akça,Gaziler,Kâlâ,Ganimet,Üngürüz Kafirleri
+107.0,Murad II,Armağan,Vılkoğlu,Kâlâ,İsâr,Murad II
+107.0,Murad II,Cihaz,Vılkoğlu,Kâlâ,İsâr,Murad II
+107.0,Murad II,Cariye,Vılkoğlu,İş Gücü,İsâr,Murad II
+107.0,Murad II,Defter,Vılkoğlu,Kâlâ,İsâr,Murad II
+107.0,Murad II,Cariye,Murad II,İş Gücü,Sahiplik,
+108.0,Murad II,Esir,Gaziler,İş Gücü,Ganimet,Üngürüz Kafirleri
+108.0,Murad II,Filori,Gaziler,Kâlâ,Ganimet,Üngürüz Kafirleri
+109.0,Murad II,At,Murad II,Binek Hayvan,Sahiplik,
+109.0,Murad II,Peşkeş,Dırakula,Kâlâ,İsâr,Murad II
+110.0,Murad II,Toprak (Timar),Murad II,Taşınılmaz / Toprak,İsâr,Arnavud Bey
+110.0,Murad II,Esir,Gaziler,İş Gücü,Ganimet,Arnavud Vilayetleri
+110.0,Murad II,Kılıç,Gaziler,Seyfiye,Ganimet,Arnavud Vilayetleri
+111.0,Murad II,Taht,Murad II,İktidar,Sahiplik,
+111.0,Murad II,Çizme,Gaziler,Kâlâ,Ganimet,Belgrad
+111.0,Murad II,Cariye,Gaziler,İş Gücü,Ganimet,Belgrad
+111.0,Murad II,Akça,Aşıkpaşazade,Kâlâ,Ganimet,Belgrad
+111.0,Murad II,Oğlan,Aşıkpaşazade,İş Gücü,Ganimet,Belgrad
+111.0,Murad II,At,Aşıkpaşazade,Binek Hayvan,Ganimet,Belgrad
+111.0,Murad II,Esir,Aşıkpaşazade,İş Gücü,Ganimet,Belgrad
+111.0,Murad II,Kul,Aşıkpaşazade,İş Gücü,Ganimet,Belgrad
+111.0,Murad II,Cariye,Aşıkpaşazade,İş Gücü,Ganimet,Belgrad
+111.0,Murad II,Esir,Gaziler,İş Gücü,Ganimet,Belgrad
+111.0,Murad II,At,Murad II,Binek Hayvan,İsâr,Aşıkpaşazade
+111.0,Murad II,Akça,Murad II,Kâlâ,İsâr,Aşıkpaşazade
+112.0,Murad II,At,İshak Bey,Binek Hayvan,Sahiplik,
+112.0,Murad II,At,Kafirler,Binek Hayvan,Sahiplik,
+112.0,Murad II,Ok,Kafirler,Seyfiye,Sahiplik,
+112.0,Murad II,Esir,Gaziler,İş Gücü,Ganimet,Kafirler
+112.0,Murad II,Esir,Aşıkpaşazade,İş Gücü,Ganimet,Kafirler
+112.0,Murad II,Akça,Aşıkpaşazade,Kâlâ,Ganimet,Kafirler
+113.0,Murad II,Yarak,Murad II,Seyfiye,Sahiplik,
+113.0,Murad II,Top,Murad II,Seyfiye,Sahiplik,
+113.0,Murad II,Bakır,Murad II,Seyfiye,Sahiplik,
+113.0,Murad II,Sancak,Murad II,İktidar,Sahiplik,
+113.0,Murad II,Esir,Gaziler,İş Gücü,Ganimet,Germe Hisarı
+113.0,Murad II,Cariye,Gaziler,İş Gücü,Ganimet,Germe Hisarı
+113.0,Murad II,Altın Tepsi,Gaziler,Kâlâ,Ganimet,Germe Hisarı
+113.0,Murad II,Gümüş Tepsi,Gaziler,Kâlâ,Ganimet,Germe Hisarı
+113.0,Murad II,Maşraba,Gaziler,Kâlâ,Ganimet,Germe Hisarı
+113.0,Murad II,Çuha,Gaziler,Kâlâ,Ganimet,Germe Hisarı
+114.0,Murad II,Şarap,Kula Şahin,Erzak,Sahiplik,
+114.0,Murad II,Kebap,Kula Şahin,Erzak,Sahiplik,
+114.0,Murad II,Börk,Kula Şahin,Seyfiye,Sahiplik,
+114.0,Murad II,At,Kula Şahin,Binek Hayvan,Sahiplik,
+116.0,Murad II,Filori,Vılkoğlu,Kâlâ,Sahiplik,
+116.0,Murad II,Taht,Murad II,İktidar,Sahiplik,
+116.0,Murad II,Taht,Mehmed II,İktidar,Sahiplik,
+117.0,Murad II,Taht,Mehmed II,İktidar,Sahiplik,
+117.0,Murad II,Gemi,Kafirler,Deniz Taşıtı,Sahiplik,
+117.0,Murad II,At,Kral Yanko,Binek Hayvan,Sahiplik,
+117.0,Murad II,Araba,Gaziler,Kara Taşıtı,Ganimet,Kafirler
+117.0,Murad II,Armağan,Azab Bey,Kâlâ,İsâr,Murad II
+117.0,Murad II,Cebe,Kafirler,Seyfiye,Sahiplik,
+117.0,Murad II,Taht,Murad II,İktidar,Sahiplik,
+118.0,Murad II,Yarak,Murad II,Seyfiye,Sahiplik,
+118.0,Murad II,Esir,Gaziler,İş Gücü,Ganimet,Kafirler
+118.0,Murad II,Yarak,Kafirler,Seyfiye,Sahiplik,
+118.0,Murad II,Harçlık,Murad II,İktidar,İsâr,Yeniçeri
+119.0,Murad II,Cebe,Gaziler,Seyfiye,Sahiplik,
+119.0,Murad II,Kaltak Eyer,Karamanoğlu Askerleri,Seyfiye,Sahiplik,
+119.0,Murad II,Yırtmaç Kürk,Karamanoğlu Askerleri,Seyfiye,Sahiplik,
+119.0,Murad II,Örmeç Kuşat,Karamanoğlu Askerleri,Seyfiye,Sahiplik,
+119.0,Murad II,Kabalak Dülbend,Karamanoğlu Askerleri,Seyfiye,Sahiplik,
+119.0,Murad II,Üzengi,Karamanoğlu Askerleri,Seyfiye,Sahiplik,
+119.0,Murad II,Kayış İp,Karamanoğlu Askerleri,Seyfiye,Sahiplik,
+119.0,Murad II,At,Karamanoğlu Askerleri,Binek Hayvan,Sahiplik,
+119.0,Murad II,Sancak,Murad II,İktidar,Sahiplik,
+119.0,Murad II,At,Murad II,Binek Hayvan,İsâr,Akbıyık
+119.0,Murad II,Esir,Murad II,İş Gücü,Sahiplik,
+119.0,Murad II,Kılıç,Murad II,Seyfiye,Sahiplik,
+119.0,Murad II,Çeşni,Aşıkpaşazade,Erzak,Sahiplik,
+120.0,Murad II,Taht,Murad II,İktidar,Sahiplik,
+120.0,Murad II,Cihaz,Murad II,Kâlâ,Sahiplik,
+120.0,Murad II,Cihaz,Gelin,Kâlâ,Sahiplik,
+120.0,Murad II,Cihaz,Murad II,Kâlâ,İsâr,Gelin
+121.0,Mehmed II,Şerbet,Mehmed II,Erzak,İsâr,Müslümanlar
+121.0,Mehmed II,Taht,Mehmed II,İktidar,Sahiplik,
+121.0,Mehmed II,Hilat,Mehmed II,İktidar,İsâr,İshak Paşa
+121.0,Mehmed II,At,Mehmed II,Binek Hayvan,Sahiplik,
+121.0,Mehmed II,Filori,Karamanoğlu İbrahim,Kâlâ,Harac,Mehmed II
+121.0,Mehmed II,Kılıç,Mehmed II,Seyfiye,Sahiplik,
+122.0,Mehmed II,Gemi,Kafirler,Deniz Taşıtı,Sahiplik,
+122.0,Mehmed II,Hisar,Mehmed II,Taşınılmaz / Toprak,Sahiplik,
+122.0,Mehmed II,Tavar,Mehmed II,Kâlâ,Sahiplik,
+122.0,Mehmed II,Balık,Tekfur,Erzak,İsâr,Çandarlı Halil Paşa
+122.0,Mehmed II,Filori,Tekfur,Kâlâ,İsâr,Çandarlı Halil Paşa
+122.0,Mehmed II,Sandık,Çandarlı Halil Paşa,Kâlâ,Sahiplik,
+122.0,Mehmed II,Yarak,Mehmed II,Seyfiye,Sahiplik,
+122.0,Mehmed II,Gemi,Mehmed II,Deniz Taşıtı,Sahiplik,
+122.0,Mehmed II,Yelken,Mehmed II,Deniz Taşıtı,Sahiplik,
+122.0,Mehmed II,Sancak,Mehmed II,İktidar,Sahiplik,
+122.0,Mehmed II,Köprü,Mehmed II,Taşınılmaz / Toprak,Sahiplik,
+122.0,Mehmed II,Altın,Gaziler,Kâlâ,Ganimet,İstanbul Kafirleri
+122.0,Mehmed II,Gümüş,Gaziler,Kâlâ,Ganimet,İstanbul Kafirleri
+122.0,Mehmed II,Cevher,Gaziler,Kâlâ,Ganimet,İstanbul Kafirleri
+122.0,Mehmed II,Kumaş,Gaziler,Kâlâ,Ganimet,İstanbul Kafirleri
+122.0,Mehmed II,Esir,Gaziler,İş Gücü,Ganimet,İstanbul Kafirleri
+123.0,Mehmed II,Mektub,Mehmed II,İletişim,Gönderme,Ev verilenlere
+123.0,Mehmed II,Mescid,Mehmed II,Taşınılmaz / Toprak,Sahiplik,
+123.0,Mehmed II,Zaviye,Mehmed II,Taşınılmaz / Toprak,Sahiplik,
+123.0,Mehmed II,Medrese,Mehmed II,Taşınılmaz / Toprak,Sahiplik,
+123.0,Mehmed II,Cami,Mehmed II,Taşınılmaz / Toprak,Sahiplik,
+123.0,Mehmed II,İmaret,Mehmed II,Taşınılmaz / Toprak,Sahiplik,
+123.0,Mehmed II,Darüş-şifa,Mehmed II,Taşınılmaz / Toprak,Sahiplik,
+123.0,Mehmed II,Türbe,Mehmed II,Taşınılmaz / Toprak,Sahiplik,
+124.0,Mehmed II,Esir,Müslümanlar,İş Gücü,Sahiplik,
+124.0,Mehmed II,Kadırga,Mehmed II,Deniz Taşıtı,Sahiplik,
+124.0,Mehmed II,Yarak,Mehmed II,Seyfiye,Sahiplik,
+124.0,Mehmed II,Ev,Gaziler,Taşınılmaz / Toprak,Ganimet,İnez Kafirleri
+124.0,Mehmed II,Çan,İnez Kafirleri,Dini,Sahiplik,
+125.0,Mehmed II,Hazine,Mehmed II,Kâlâ,Sahiplik,
+125.0,Mehmed II,Gümüş,Mehmed II,Kâlâ,Ganimet,Kafirler
+126.0,Mehmed II,Gemi,Mehmed II,Deniz Taşıtı,Sahiplik,
+126.0,Mehmed II,Bakır At,Kafirler,Dini,Sahiplik,
+126.0,Mehmed II,Vidalı Haç,Kafirler,Dini,Sahiplik,
+126.0,Mehmed II,Çan,Kafirler,Dini,Sahiplik,
+126.0,Mehmed II,Top,Mehmed II,Seyfiye,Sahiplik,
+126.0,Mehmed II,Gemi,Mehmed II,Deniz Taşıtı,Sahiplik,
+126.0,Mehmed II,Top,Mehmed II,Seyfiye,Sahiplik,
+126.0,Mehmed II,Gemi,Kafirler,Deniz Taşıtı,Sahiplik,
+126.0,Mehmed II,At,Mehmed II,Binek Hayvan,Sahiplik,
+126.0,Mehmed II,Kılıç,Mehmed II,Seyfiye,Sahiplik,
+127.0,Mehmed II,Otak,Mehmed II,Kâlâ,Sahiplik,
+127.0,Mehmed II,Hayme,Mehmed II,Kâlâ,Sahiplik,
+127.0,Mehmed II,Somat,Mehmed II,Erzak,İsâr,Müslümanlar
+127.0,Mehmed II,Nimet,Mehmed II,Erzak,İsâr,Müslümanlar
+127.0,Mehmed II,Taam,Mehmed II,Erzak,İsâr,Müslümanlar
+127.0,Mehmed II,Şeker Alet,Mehmed II,Erzak,İsâr,Müslümanlar
+127.0,Mehmed II,Sini,Mehmed II,Erzak,İsâr,Müslümanlar
+127.0,Mehmed II,Fota,Mehmed II,Erzak,İsâr,Müslümanlar
+127.0,Mehmed II,Hilat,Mehmed II,İktidar,Sahiplik,
+127.0,Mehmed II,At,Mehmed II,Binek Hayvan,Sahiplik,
+128.0,Mehmed II,Esir,Mehmed II,İş Gücü,Ganimet,Mora Kafirleri
+128.0,Mehmed II,Harçlık,Mehmed II,İktidar,İsâr,Askerlerine
+128.0,Mehmed II,Sancak,Mehmed II,İktidar,Sahiplik,
+128.0,Mehmed II,Çift Akçası,Mehmed II,Resm,Sahiplik,
+128.0,Mehmed II,Kılıç,Mehmed II,Seyfiye,Sahiplik,
+129.0,Mehmed II,Gemi,Kafirler,Deniz Taşıtı,Sahiplik,
+129.0,Mehmed II,Gemi,Mehmed II,Deniz Taşıtı,Sahiplik,
+129.0,Mehmed II,Yarak,Mehmed II,Seyfiye,Sahiplik,
+129.0,Mehmed II,Gemi,Kafirler,Deniz Taşıtı,Sahiplik,
+130.0,Mehmed II,Çan,Kafirler,Dini,Sahiplik,
+131.0,Mehmed II,Gemi,Mehmed II,Deniz Taşıtı,Sahiplik,
+131.0,Mehmed II,Peşkeş,İsmail Bey,Kâlâ,İsâr,Mehmed II
+131.0,Mehmed II,Gemi,Mehmed II,Deniz Taşıtı,Sahiplik,
+131.0,Mehmed II,Lenger,Mehmed II,Deniz Taşıtı,Sahiplik,
+131.0,Mehmed II,Ok,Amasra Tekfuru,Seyfiye,Sahiplik,
+131.0,Mehmed II,Yay,Amasra Tekfuru,Seyfiye,Sahiplik,
+131.0,Mehmed II,Kılıç,Amasra Tekfuru,Seyfiye,Sahiplik,
+132.0,Mehmed II,Gemi,Mehmed II,Deniz Taşıtı,Sahiplik,
+132.0,Mehmed II,At,Mehmed II,Binek Hayvan,Sahiplik,
+132.0,Mehmed II,Mektub,Mehmed II,İletişim,Gönderme,İsmail Bey
+132.0,Mehmed II,Akça,Mehmed II,Kâlâ,Sahiplik,
+132.0,Mehmed II,Bakır Küre,Mehmed II,İktidar,Sahiplik,
+132.0,Mehmed II,Akça,Mehmed II,Kâlâ,Sahiplik,
+133.0,Mehmed II,Tavar,İsmail Bey,Binek Hayvan,Sahiplik,
+133.0,Mehmed II,Toprak (Yenişehir),Mehmed II,Taşınılmaz / Toprak,İsâr,İsmail Bey
+133.0,Mehmed II,Toprak (Eynegöl) ,Mehmed II,Taşınılmaz / Toprak,İsâr,İsmail Bey
+133.0,Mehmed II,Toprak (Yarhisar),Mehmed II,Taşınılmaz / Toprak,İsâr,İsmail Bey
+133.0,Mehmed II,Hilat,Mehmed II,İktidar,İsâr,Karamanoğlu
+134.0,Mehmed II,Top,Mehmed II,Seyfiye,Sahiplik,
+134.0,Mehmed II,Ulufe,Mehmed II,İktidar,Sahiplik,
+135.0,Mehmed II,Armağan,Uzun Hasan,Kâlâ,İsâr,Mehmed II
+135.0,Mehmed II,Gemi,Mehmed II,Deniz Taşıtı,Sahiplik,
+135.0,Mehmed II,Hazine,Mehmed II,Kâlâ,Sahiplik,
+135.0,Mehmed II,Ev,Müslümanlar,Taşınılmaz / Toprak,Ganimet,Trabzon Kafirleri
+138.0,Mehmed II,Gemi,Mehmed II,Deniz Taşıtı,Sahiplik,
+138.0,Mehmed II,Top,Mehmed II,Seyfiye,Sahiplik,
+138.0,Mehmed II,Taht,Mehmed II,İktidar,Sahiplik,
+138.0,Mehmed II,Hilat,Mehmed II,İktidar,İsâr,Eflak Tekfuru
+138.0,Mehmed II,Çadır,Mahmud Paşa,Kâlâ,Sahiplik,
+138.0,Mehmed II,Defter,Mahmud Paşa,idari,Sahiplik,
+138.0,Mehmed II,Nakid,Eflak Halkı,Kâlâ,Sahiplik,
+138.0,Mehmed II,Kumaş,Eflak Halkı,Kâlâ,Sahiplik,
+138.0,Mehmed II,Çadır,Mahmud Paşa,Kâlâ,Sahiplik,
+138.0,Mehmed II,Esir,Müslümanlar,İş Gücü,Sahiplik,
+138.0,Mehmed II,Ev,Müslümanlar,Taşınılmaz / Toprak,Ganimet,Eflak Tekfuru
+139.0,Mehmed II,Kılıç,Musannifek,Seyfiye,Sahiplik,
+139.0,Mehmed II,Hazine,Mehmed II,Kâlâ,Sahiplik,
+139.0,Mehmed II,Esir,Akıncılar,İş Gücü,Ganimet,Bosna Kafirleri
+139.0,Mehmed II,Hazine,Akıncılar,Kâlâ,Ganimet,Bosna Kafirleri
+140.0,Mehmed II,Hazine,Karamanoğlu İbrahim,Kâlâ,Sahiplik,
+140.0,Mehmed II,Taht,İshak,İktidar,Sahiplik,
+140.0,Mehmed II,Etek,Uzun Hasan,Kâlâ,Sahiplik,
+140.0,Mehmed II,Filori,İshak Bey,Kâlâ,İsâr,Uzun Hasan
+140.0,Mehmed II,Tavar,Uzun Hasan,Binek Hayvan,Ganimet,Karamanoğlu
+142.0,Mehmed II,Çadır,Mahmud Paşa,Kâlâ,Sahiplik,
+142.0,Mehmed II,Otak,Mahmud Paşa,Kâlâ,Sahiplik,
+142.0,Mehmed II,Deve,Mahmud Paşa,Binek Hayvan,Sahiplik,
+143.0,Mehmed II,Gemi,Mehmed II,Deniz Taşıtı,Sahiplik,
+143.0,Mehmed II,Top,Mehmed II,Seyfiye,Sahiplik,
+143.0,Mehmed II,Ok,Mehmed II,Seyfiye,Sahiplik,
+143.0,Mehmed II,Gemi,Kafirler,Deniz Taşıtı,Sahiplik,
+143.0,Mehmed II,Ev,Müslümanlar,Taşınılmaz / Toprak,Ganimet,Kafirler
+146.0,Mehmed II,Top,Mehmed II,Seyfiye,Sahiplik,
+146.0,Mehmed II,Toprak (Gümülcine),Mehmed II,Taşınılmaz / Toprak,İsâr,Kılıç Arslan
+146.0,Mehmed II,Kumaş,Kılıç Arslan,Kâlâ,Sahiplik,
+146.0,Mehmed II,At,Kılıç Arslan,Binek Hayvan,Sahiplik,
+146.0,Mehmed II,Gemi,Kılıç Arslan,Deniz Taşıtı,Sahiplik,
+146.0,Mehmed II,Kayık,Kılıç Arslan,Deniz Taşıtı,Sahiplik,
+148.0,Mehmed II,İp,Uzun Hasan,Kâlâ,Sahiplik,
+149.0,Mehmed II,Yarak,Mehmed II,Seyfiye,Sahiplik,
+150.0,Mehmed II,Yarak,Mehmed II,Seyfiye,Ganimet,Hasan-ı Diraz
+150.0,Mehmed II,Esir,Mehmed II,İş Gücü,Ganimet,Hasan-ı Diraz
+150.0,Mehmed II,At,Hasan Bey,Binek Hayvan,Sahiplik,
+150.0,Mehmed II,Ok,Türkmenler,Seyfiye,Sahiplik,
+150.0,Mehmed II,Kılıç,Türkmenler,Seyfiye,Sahiplik,
+150.0,Mehmed II,Taht,Mehmed II,İktidar,Sahiplik,
+151.0,Mehmed II,Yarak,Mehmed II,Seyfiye,Sahiplik,
+151.0,Mehmed II,Gemi,Mehmed II,Deniz Taşıtı,Sahiplik,
+151.0,Mehmed II,At,Mehmed II,Binek Hayvan,Sahiplik,
+151.0,Mehmed II,Yarak,Mehmed II,Seyfiye,Sahiplik,
+151.0,Mehmed II,Lenger,Mehmed II,Deniz Taşıtı,Sahiplik,
+151.0,Mehmed II,Balamar,Mehmed II,Deniz Taşıtı,Sahiplik,
+151.0,Mehmed II,Yelken,Mehmed II,Deniz Taşıtı,Sahiplik,
+151.0,Mehmed II,Top,Mehmed II,Seyfiye,Sahiplik,
+151.0,Mehmed II,Sancak,Mehmed II,İktidar,Sahiplik,
+151.0,Mehmed II,Çan,Kafirler,Dini,Sahiplik,
+151.0,Mehmed II,Put,Kafirler,Dini,Sahiplik,
+151.0,Mehmed II,Hilat,Mehmed II,İktidar,İsâr,Gaziler
+151.0,Mehmed II,Hazine,Tekfur,Kâlâ,Sahiplik,
+151.0,Mehmed II,Hazine,Mehmed II,Kâlâ,Sahiplik,
+151.0,Mehmed II,Gemi,Mehmed II,Deniz Taşıtı,Sahiplik,
+151.0,Mehmed II,Hazine,Kafirler,Kâlâ,Sahiplik,
+151.0,Mehmed II,Hazine,Mehmed II,Kâlâ,Sahiplik,
+152.0,Mehmed II,Yarak,Mehmed II,Seyfiye,Sahiplik,
+152.0,Mehmed II,Gemi,Mehmed II,Deniz Taşıtı,Sahiplik,
+152.0,Mehmed II,Top,Mehmed II,Seyfiye,Sahiplik,
+152.0,Mehmed II,Araba,Kafirler,Kara Taşıtı,Sahiplik,
+152.0,Mehmed II,Esir,Gaziler,İş Gücü,Ganimet,Kafirler
+152.0,Mehmed II,At,Gaziler,Binek Hayvan,Ganimet,Kafirler
+152.0,Mehmed II,Koyun,Gaziler,Ağnam,Ganimet,Kafirler
+153.0,Mehmed II,Yarak,Mehmed II,Seyfiye,Sahiplik,
+153.0,Mehmed II,At,Mehmed II,Binek Hayvan,Sahiplik,
+153.0,Mehmed II,Üzengi,Mehmed II,At Aksesuarı,Sahiplik,
+154.0,Mehmed II,Top,Mehmed II,Seyfiye,Sahiplik,
+154.0,Mehmed II,Taht,Mehmed II,İktidar,Sahiplik,
+154.0,Mehmed II,Cülus,Mehmed II,İktidar,Sahiplik,
+156.0,Bayezid II,Taht,Bayezid II,İktidar,Sahiplik,
+156.0,Bayezid II,Taht,Cem Sultan,İktidar,Sahiplik,
+156.0,Bayezid II,Taht,Bayezid II,İktidar,Sahiplik,
+157.0,Bayezid II,Taht,Bayezid II,İktidar,Sahiplik,
+158.0,Bayezid II,Taht,Bayezid II,İktidar,Sahiplik,
+158.0,Bayezid II,Cülus,Bayezid II,İktidar,Sahiplik,
+159.0,Bayezid II,Mektub,Karamanoğlu,İletişim,Gönderme,Cem Sultan
+159.0,Bayezid II,Gemi,Cem Sultan,Deniz Taşıtı,Sahiplik,
+160.0,Bayezid II,Taht,Bayezid II,İktidar,Sahiplik,
+160.0,Bayezid II,Taht,Şahinşah,İktidar,Sahiplik,
+160.0,Bayezid II,Yarak,Bayezid II,Seyfiye,Sahiplik,
+161.0,Bayezid II,Gemi,Bayezid II,Deniz Taşıtı,Sahiplik,
+161.0,Bayezid II,Azık,Bayezid II,Erzak,Sahiplik,
+161.0,Bayezid II,Yarak,Bayezid II,Seyfiye,Sahiplik,
+161.0,Bayezid II,Top,Bayezid II,Seyfiye,Sahiplik,
+161.0,Bayezid II,Tüfek,Bayezid II,Seyfiye,Sahiplik,
+161.0,Bayezid II,Sancak,Bayezid II,İktidar,Sahiplik,
+161.0,Bayezid II,Yarak,Akkerman Askerleri,Seyfiye,Sahiplik,
+161.0,Bayezid II,Sancak,Bayezid II,İktidar,Sahiplik,
+161.0,Bayezid II,Esir,Bayezid II,İş Gücü,Ganimet,Akkerman Hisari
+161.0,Bayezid II,Ev,Gaziler,Taşınılmaz / Toprak,Ganimet,Akkerman Hisari
+162.0,Bayezid II,Taht,Ramazan,İktidar,Sahiplik,
+164.0,Bayezid II,Gemi,Karaboğdanlı,Binek Hayvan,Sahiplik,
+164.0,Bayezid II,Nerdünban,Bayezid II,Deniz Taşıtı,Sahiplik,
+164.0,Bayezid II,Kılıç,Gaziler,Seyfiye,Ganimet,Kafirler
+164.0,Bayezid II,Altın,Gaziler,Kâlâ,Ganimet,Kafirler
+164.0,Bayezid II,Gümüş,Gaziler,Kâlâ,Ganimet,Kafirler
+164.0,Bayezid II,Kumaş,Gaziler,Kâlâ,Ganimet,Kafirler
+164.0,Bayezid II,Tavar,Gaziler,Binek Hayvan,Ganimet,Kafirler
+165.0,Bayezid II,Medrese,Bayezid II,Taşınılmaz / Toprak,Sahiplik,
+165.0,Bayezid II,İmaret,Bayezid II,Taşınılmaz / Toprak,Sahiplik,
+165.0,Bayezid II,Köprü,Bayezid II,Taşınılmaz / Toprak,Sahiplik,
+165.0,Bayezid II,İmaret,Bayezid II,Taşınılmaz / Toprak,Sahiplik,
+165.0,Bayezid II,Medrese,Bayezid II,Taşınılmaz / Toprak,Sahiplik,
+165.0,Bayezid II,Timarhane,Bayezid II,Taşınılmaz / Toprak,Sahiplik,
+166.0,Bayezid II,At,Bayezid II,Binek Hayvan,Sahiplik,
+166.0,Bayezid II,Cami,Hayreddin Paşa,Taşınılmaz / Toprak,Sahiplik,
+166.0,Bayezid II,İmaret,Hayreddin Paşa,Taşınılmaz / Toprak,Sahiplik,
+168.0,Bayezid II,Kılıç,Al-i Osman,Seyfiye,Sahiplik,
+171.0,Mehmed II,Sikke,Mehmed II,İktidar,Sahiplik,
+171.0,Mehmed II,Taht,Mehmed II,İktidar,Sahiplik,
+172.0,Mehmed II,Börk,Yeniçeri,Seyfiye,Sahiplik,
+172.0,Mehmed II,Mektub,Mısır Sultanı,İletişim,Gönderme,Mehmed II
+172.0,Mehmed II,Hediye,Mısır Sultanı,Kâlâ,İsâr,Mehmed II
+173.0,Mehmed II,Hediye,Mısır Sultanı,Kâlâ,İsâr,Mehmed II
+173.0,Mehmed II,Taht,Mısır Sultanı,İktidar,Sahiplik,
+173.0,Mehmed II,Filori,Mısır Sultanı,Kâlâ,İsâr,Türkmenler
+176.0,Mehmed II,Taht,Mehmed II,İktidar,Sahiplik,
+177.0,Bayezid II,Taht,Bayezid II,İktidar,Sahiplik,
+177.0,Bayezid II,Etek,Bayezid II,Kâlâ,Sahiplik,
+177.0,Bayezid II,Ok,Arap Beyleri,Seyfiye,Sahiplik,
+179.0,Bayezid II,Sancak,Bayezid II,İktidar,Sahiplik,
+180.0,Bayezid II,Azık,Sipahi,Erzak,Sahiplik,
+180.0,Bayezid II,Yarak,Sipahi,Seyfiye,Sahiplik,
