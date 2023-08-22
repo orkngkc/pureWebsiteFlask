@@ -94,9 +94,9 @@ def login():
         else:
             flash("Böyle bir kullanıcı bulunmuyor", "danger")
             return redirect(url_for("login"))
+    else:
 
-        return redirect(url_for("index"))
-    return render_template("login.html", form=form)
+        return render_template("login.html", form=form)
 
 @app.route("/logout", methods=["GET", "POST"])
 def logout():
