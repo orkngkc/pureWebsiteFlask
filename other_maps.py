@@ -25,7 +25,7 @@ def update_map(event):
     for _, row in subset.iterrows():
         html = f""" <h1> Fetih Hakkında</h1>
                     <p> Dönem: {row['Era']}  <br>
-                    Sene: {row['Sene'][-4:]}   <br>
+                    Sene: {"Bilinmiyor" if (row['Sene'] == "Bilinmiyor") else row['Sene'][-4:]}   <br>
                     Yerin Adı: {row['Yerin Adı']}  <br>
                     Olay: {"Başarılı " if (row['Success']== "1") else "Başarısız "} {row['Niyet']} <br>
                     Osmanlı Lideri: {row['Ottoman leaders']}  <br>
@@ -70,7 +70,7 @@ def update_slider_map(event):
     for _, row in subset.iterrows():
         html = f""" <h1> Fetih Hakkında</h1>
                     <p> Dönem: {row['Era']}  <br>
-                    Sene: {row['Sene'][-4:]}   <br>
+                    Sene: {"Bilinmiyor" if (row['Sene'] == "Bilinmiyor") else row['Sene'][-4:]}   <br>
                     Yerin Adı: {row['Yerin Adı']}  <br>
                     Olay: {"Başarılı " if (row['Success']== "1") else "Başarısız "} {row['Niyet']} <br>
                     Osmanlı Lideri: {row['Ottoman leaders']}  <br>
