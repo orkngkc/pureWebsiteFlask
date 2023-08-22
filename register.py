@@ -1,5 +1,4 @@
 import random
-import pyperclip
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField
 from wtforms.validators import DataRequired, Length, EqualTo, Email
@@ -20,7 +19,7 @@ def pw_gen():
     random.shuffle(password_list)
     password = "".join(password_list)
 
-    pyperclip.copy(password)
+    # pyperclip.copy(password)
 
 
 class RegistrationForm(FlaskForm):
@@ -36,4 +35,5 @@ class LoginForm(FlaskForm):
     email = StringField(label="Email", validators=[DataRequired(), Email()])
     password = PasswordField(label="Password", validators=[DataRequired(), Length(min=12, max=18)])
     submit = SubmitField("Login")
+
 
