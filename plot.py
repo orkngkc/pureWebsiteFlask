@@ -1,6 +1,7 @@
 import plotly.express as px
 import pandas as pd
 import panel as pn
+from pandas.api.types import CategoricalDtype
 
 tipler = pd.read_excel("Tipler Revize.xlsx")
 tipler["Padişah Dönemi"] = tipler["Padişah Dönemi"].str.strip()
@@ -8,6 +9,40 @@ sultan_list = tipler["Padişah Dönemi"].unique().tolist()
 sultan_list.insert(1, 'Ertuğrul Gazi')
 sultan_list.pop()
 pn.extension("plotly")
+
+cat_dtype = CategoricalDtype(categories = sultan_list, ordered = True)
+tipler["Padişah Dönemi"] = tipler["Padişah Dönemi"].astype(cat_dtype)
+
+
+cross = pd.crosstab(tipler['Sosyal Grup'], tipler["Sıfat Değeri"])
+cross['total'] = cross['-'] + cross['Nötr'] + cross['nötr'] + cross['Olumlu'] + cross['Olumsuz'] + cross['n']
+cross['percentage'] = (cross["Olumlu"] / cross["total"]) * 100
+percentage_subset = cross[cross.total >= 3].iloc[1:, 7:]
+percentage_subset.index.name = None
+percentage_subset.columns.name = None
+percentage_subset = percentage_subset["percentage"].squeeze()
+percentage_subset
+
+murad_oncesi_subset = tipler[tipler["Padişah Dönemi"] < 'Murad II']["Sosyal Grup"].value_counts()
+murad_oncesi_subset = murad_oncesi_subset[murad_oncesi_subset.values >=3]
+murad_oncesi_fig = px.bar(murad_oncesi_subset, x=murad_oncesi_subset.index, y=murad_oncesi_subset.values,
+             color='Sosyal Grup',
+             title = f"Murad II Dönemi Öncesi Sosyal Gruplar",
+             labels={'pop':'Sosyal Gruplar', "y": "Count", "x":"Sosyal Gruplar"}, height=400)
+
+
+murad_sonrası_subset = tipler[tipler["Padişah Dönemi"] >= 'Murad II']["Sosyal Grup"].value_counts()
+murad_sonrası_subset = murad_sonrası_subset[murad_sonrası_subset.values >=3]
+murad_sonrası_fig = px.bar(murad_sonrası_subset, x=murad_sonrası_subset.index, y=murad_sonrası_subset.values,
+             color='Sosyal Grup',
+             title = f"Murad II Dönemi ve Sonrası Sosyal Gruplar",
+             labels={'pop':'Sosyal Gruplar', "y": "Count", "x":"Sosyal Gruplar"}, height=400)
+
+
+percentage_fig = px.bar(percentage_subset, x=percentage_subset.index, y=percentage_subset.values,
+             color = "percentage",
+             title = f"Sosyal Grupların Olumlu Anılma Yüzdeleri",
+             labels={'pop':'Sosyal Gruplar', "y": "Count", "x":"Sıfat Değerleri"}, height=400)
 
 
 def update_plot(selected_king):
@@ -38,7 +73,24 @@ def selector_callback(event):
 
 king_selector.param.watch(selector_callback, "value")
 
-lay = pn.Column(king_selector, responsive)
+padisah = pn.Column(king_selector, responsive)
+murad = pn.Tabs(
+    ("Murad II Oncesi", murad_oncesi_fig),
+    ("Murad II Sonrası", murad_sonrası_fig)
+)
+
+sosyal_grup = pn.Column(percentage_fig)
+
+
+lay = pn.Tabs(
+    ("Padişaha Göre Sosyal Gruplar", padisah),
+    ("Murad II Öncesi ve Sonrası", murad),
+    ("Sosyal Grupların Olumlu Anılma Yüzdeleri", sosyal_grup)
+)
+
+
+
+
 
 ######################################
 dataset = pd.read_csv("nesneler.csv")
