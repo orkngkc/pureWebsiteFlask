@@ -1,9 +1,11 @@
 import subprocess
 import pandas as pd
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for, redirect
+from register import RegistrationForm, LoginForm
 
 
 app = Flask(__name__)
+app.config["SECRET_KEY"] = "SOME_PASSWORD_OVER_HERE"
 
 conquests = pd.read_csv("data.csv")
 conquests["Opponent leader"].fillna("Bilinmiyor", inplace=True)
@@ -33,6 +35,13 @@ def plots():
 @app.route("/book")
 def book():
     return render_template("book.html")
+
+@app.route("/register", methods=["POST", "GET"])
+def register():
+    form = RegistrationForm()
+    if form.validate_on_submit():
+        return redirect(url_for("index"))
+    return render_template("register.html", form=form)
 
 
 if __name__ == "__main__":
