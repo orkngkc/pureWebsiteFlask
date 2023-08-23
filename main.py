@@ -1,7 +1,9 @@
 import subprocess
 import pandas as pd
-from flask import Flask, render_template, url_for, redirect
+from flask import Flask, render_template, url_for, redirect, request, flash, session
 from register import RegistrationForm, LoginForm
+from passlib.hash import sha256_crypt
+from flask_mysqldb import MySQL
 
 
 app = Flask(__name__)
@@ -12,6 +14,8 @@ conquests["Opponent leader"].fillna("Bilinmiyor", inplace=True)
 conquests["Sene"].fillna("Bilinmiyor", inplace=True)
 conquests["Success"]=conquests["Success"].astype(str)
 conquests["isOpponentMuslim"]=conquests["isOpponentMuslim"].astype(str)
+
+mysql = MySQL(app)
 
 @app.route("/")
 def index():
@@ -38,17 +42,69 @@ def book():
 
 @app.route("/register", methods=["POST", "GET"])
 def register():
-    form = RegistrationForm()
-    if form.validate_on_submit():
+    form = RegistrationForm(request.form)
+    if request.method == "POST" and form.validate():
+        username = form.username.data
+        email = form.email.data
+        password = sha256_crypt.encrypt(form.password.data)
+
+        cursor = mysql.connection.cursor()
+
+        inquiry = "INSERT into users(username, email, password) VALUES(%s,%s,%s)"
+
+        cursor.execute(inquiry, (username, email, password))  # if you gave one elemnt tuple to inquiry you should write like this: (name,)
+        mysql.connection.commit()
+
+        cursor.close()
+
+        flash(message="Başarıyla kayıt oldunuz...", category="success")
+
         return redirect(url_for("login"))
     return render_template("register.html", form=form)
 
 @app.route("/login", methods=["POST", "GET"])
 def login():
-    form = LoginForm()
-    if form.validate_on_submit():
-        return redirect(url_for("index"))
-    return render_template("login.html", form=form)
+    form = LoginForm(request.form)
+    if request.method == "POST" and form.validate():
+        username = form.username.data
+        password_entered = form.password.data
+
+        cursor = mysql.connection.cursor()
+
+        inquiry = "Select * From users where username = %s"
+
+        result = cursor.execute(inquiry, (username,))
+
+        if result > 0:
+            data = cursor.fetchone()
+            real_password = data["password"]
+            cursor.close()
+
+            if sha256_crypt.verify(password_entered, real_password):
+                flash(message="Başarıyla giriş yaptınız!", category="success")
+
+                session["logged_in"] = True
+                session["username"] = username
+
+                return redirect(url_for("index"))
+            else:
+                flash(message="Şifrenizi yanlış girdiniz...", category="danger")
+
+                return redirect(url_for("login"))
+        else:
+            flash("Böyle bir kullanıcı bulunmuyor", "danger")
+            return redirect(url_for("login"))
+    else:
+
+        return render_template("login.html", form=form)
+
+@app.route("/logout", methods=["GET", "POST"])
+def logout():
+    session.clear()
+
+    flash("Başarıyla çıkış yaptınız...", "success")
+
+    return redirect(url_for("index"))
 
 
 if __name__ == "__main__":

@@ -1,5 +1,6 @@
 {% extends "layout.html" %}
 {% block body %}
+    {% from "includes/formhelpers.html" import render_field %}
     <div class="container w-50">
         <form method="POST" action="">
             {{ form.hidden_tag() }}
