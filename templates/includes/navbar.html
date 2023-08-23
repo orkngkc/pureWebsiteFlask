@@ -16,10 +16,10 @@
                 Maps
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="/maps">Map 1</a>
-                <a class="dropdown-item" href="/maps">Map 2</a>
+                <a class="dropdown-item" href="/other_maps">Cluster Maps </a>
+                <a class="dropdown-item" href="/heatmaps">Heatmaps </a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="/maps">Another Map</a>
+                <a class="dropdown-item" href="/plot">Plot</a>
               </div>
           </li>
             <li class = "nav-item active">
@@ -31,10 +31,18 @@
           </li>
         </ul>
         <ul class="navbar-nav ml-auto">
-          <li class = "nav-item active">
-              <a class= "nav-link" href="/register" >Register</a>
-
-          </li>
+              {% if session["logged_in"] %}
+                  <li class = "nav-item active">
+              	    <a class= "nav-link" href="/logout" >Logout</a>
+                  </li>
+              {% else %}
+                  <li class = "nav-item active">
+              	    <a class= "nav-link" href="/register" >Register</a>
+                  </li>
+                  <li class = "nav-item active">
+                    <a class= "nav-link" href="/login" >Login</a>
+                  </li>
+              {% endif %}
         </ul>
       </div>
     </nav>
