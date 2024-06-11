@@ -1,9 +1,9 @@
 import subprocess
 import pandas as pd
 from flask import Flask, render_template, url_for, redirect, request, flash, session
-from register import RegistrationForm, LoginForm
-from passlib.hash import sha256_crypt
-from flask_mysqldb import MySQL
+#from register import RegistrationForm, LoginForm
+#rom passlib.hash import sha256_crypt
+#from flask_mysqldb import MySQL
 
 
 app = Flask(__name__)
@@ -15,7 +15,7 @@ conquests["Sene"].fillna("Bilinmiyor", inplace=True)
 conquests["Success"]=conquests["Success"].astype(str)
 conquests["isOpponentMuslim"]=conquests["isOpponentMuslim"].astype(str)
 
-mysql = MySQL(app)
+#mysql = MySQL(app)
 
 @app.route("/")
 def index():
@@ -39,7 +39,7 @@ def plots():
 @app.route("/book")
 def book():
     return render_template("book.html")
-
+"""
 @app.route("/register", methods=["POST", "GET"])
 def register():
     form = RegistrationForm(request.form)
@@ -105,7 +105,7 @@ def logout():
     flash("Başarıyla çıkış yaptınız...", "success")
 
     return redirect(url_for("index"))
-
+"""
 
 if __name__ == "__main__":
     processes = [

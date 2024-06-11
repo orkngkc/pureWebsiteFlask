@@ -21,7 +21,7 @@ percentage_subset = cross[cross.total >= 3].iloc[1:, 7:]
 percentage_subset.index.name = None
 percentage_subset.columns.name = None
 percentage_subset = percentage_subset["percentage"].squeeze()
-percentage_subset
+
 
 murad_oncesi_subset = tipler[tipler["Padişah Dönemi"] < 'Murad II']["Sosyal Grup"].value_counts()
 murad_oncesi_subset = murad_oncesi_subset[murad_oncesi_subset.values >=3]
