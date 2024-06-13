@@ -3,3 +3,4 @@ folium==0.14.0
 pandas==2.0.3
 panel==1.2.1
 plotly==5.16.1
+openpyxl==3.1.3

@@ -26,7 +26,7 @@ percentage_subset = percentage_subset["percentage"].squeeze()
 murad_oncesi_subset = tipler[tipler["Padişah Dönemi"] < 'Murad II']["Sosyal Grup"].value_counts()
 murad_oncesi_subset = murad_oncesi_subset[murad_oncesi_subset.values >=3]
 murad_oncesi_fig = px.bar(murad_oncesi_subset, x=murad_oncesi_subset.index, y=murad_oncesi_subset.values,
-             color="count",
+
              title = f"Murad II Dönemi Öncesi Sosyal Gruplar",
              labels={'pop':'Sosyal Gruplar', "y": "Count", "x":"Sosyal Gruplar"}, height=400)
 
@@ -34,13 +34,13 @@ murad_oncesi_fig = px.bar(murad_oncesi_subset, x=murad_oncesi_subset.index, y=mu
 murad_sonrası_subset = tipler[tipler["Padişah Dönemi"] >= 'Murad II']["Sosyal Grup"].value_counts()
 murad_sonrası_subset = murad_sonrası_subset[murad_sonrası_subset.values >=3]
 murad_sonrası_fig = px.bar(murad_sonrası_subset, x=murad_sonrası_subset.index, y=murad_sonrası_subset.values,
-             color="count",
+
              title = f"Murad II Dönemi ve Sonrası Sosyal Gruplar",
              labels={'pop':'Sosyal Gruplar', "y": "Count", "x":"Sosyal Gruplar"}, height=400)
 
 
 percentage_fig = px.bar(percentage_subset, x=percentage_subset.index, y=percentage_subset.values,
-             color = "percentage",
+
              title = f"Sosyal Grupların Olumlu Anılma Yüzdeleri",
              labels={'pop':'Sosyal Gruplar', "y": "Count", "x":"Sıfat Değerleri"}, height=400)
 
@@ -50,7 +50,7 @@ def update_plot(selected_king):
 
     # Create a bar trace using go.Bar
     fig = px.bar(subset, x=subset.index, y=subset.values,
-                 color="count",
+
                  title=f"{selected_king} Dönemi Öncesi Sosyal Gruplar",
                  labels={'pop': 'Sosyal Gruplar', "y": "Count", "x": "Sosyal Gruplar"}, height=400)
 
@@ -103,7 +103,7 @@ def update_objects_plot1(selected_king2):
     value_counts = filtered_data["Nitelik"].value_counts()
 
     fig = px.bar(value_counts, x=value_counts.index, y=value_counts.values,
-                 color="count",
+
                  title=f"{selected_king2} Dönemi Öncesi Elden Ele Geçen Nesneler (Niteliklerine Göre)",
                  labels={'value_counts': 'Nesneler', "y": "Count", "x": "Nesneler"}, height=400)
 
@@ -128,7 +128,7 @@ def update_objects_plot2(selected_king3):
     value_counts = filtered_data["Eylem"].value_counts()
 
     fig = px.bar(value_counts, x=value_counts.index, y=value_counts.values,
-                 color='count',
+
                  title=f"{selected_king3} Dönemi Öncesi Elden Ele Geçen Nesneler (Eylemlere Göre)",
                  labels={'value_counts': 'Nesneler', "y": "Count", "x": "Nesneler"}, height=400)
 
@@ -153,7 +153,7 @@ def update_objects_pie(selectedEylem):
     value_counts = filtered_data["Sultan"].value_counts()
 
     fig = px.pie(value_counts, names=value_counts.index, values=value_counts.values,
-                 color='count',
+
                  title=f"{selectedEylem} Eylemine Bağlı Nesnelerin Ait Olduğu Padişah Dağılımı",
                  labels={'value_counts': 'Sultan', "y": "Count", "x": "Sultan"}, height=400)
 
@@ -179,7 +179,7 @@ def update_objects_pie2(selectedNitelik):
     value_counts = filtered_data["Sultan"].value_counts()
 
     fig = px.pie(value_counts, names=value_counts.index, values=value_counts.values,
-                 color='count',
+
                  title=f"{selectedNitelik} Niteliğine Bağlı Nesnelerin Ait Olduğu Padişah Dağılımı",
                  labels={'value_counts': 'Sultan', "y": "Count", "x": "Sultan"}, height=400)
 
